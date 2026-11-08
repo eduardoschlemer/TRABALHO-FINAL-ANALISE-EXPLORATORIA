@@ -114,53 +114,28 @@ jupyter notebook projeto_final.ipynb
 
 ### Hipóteses testadas (α = 5%)
 
-| hipotese  | teste                                                         | p_valor                       | efeito                | decisao         | frase_negocio                                          |
-| H1        | Teste t de Student para amostras independentes (Unicaudal)    | 5.6227e-13                    | +9.51 minutos         | Rejeita H0      | Operação sob alerta: a chuva causa um impacto logístico|
-|           |                                                               |                               |                       |                 |severo, aumentando o tempo médio de espera do           |
-|           |                                                               |                               |                       |                 |cliente em 9.51 minutos.                                | 
-| H2        | Teste t de Student Welch com ajuste Log                       | 6.1235e-13                    | R$ -4.97              | Rejeita H0      | Impacto comercial confirmado: a concessão de cupons    |
-|           |                                                               |                               |                       |                 |altera o ticket médio das vendas em R$ 4.97, mudando o  |
-|           |                                                               |                               |                       |                 |comportamento de gasto dos clientes de                  |
-|           |                                                               |                               |                       |                 | forma estatisticamente significante.                   |
-| H3        | Correlação de Spearman + Teste de Mann-Whitney                | 3.9568e-85 | rho = -0.216     | Queda de 0.24 pts     | Rejeita H0      | Gargalo logístico crítico validado: há uma             |
-|           |                                                               |                               |                       |                 |correlação negativa significante (rho = -0.216).        |
-|           |                                                               |                               |                       |                 |Pedidos entregues até 35 min têm nota média de 4.41,    |
-|           |                                                               |                               |                       |                 |enquanto os acima de 35 min caem para 4.17 (uma perda   |
-|           |                                                               |                               |                       |                 |real de 0.24 pontos na satisfação).                     |
-| H4        | ANOVA One-Way                                                 | 2.9358e-283 | Eta² = 0.151    | Amp = R$ 78.57        | Rejeita H0      | Cardápio estratégico validado: as culinárias não       |
-|           |                                                               |                               |                       |                 |faturam de forma homogênea. O segmento culinário é o    |
-|           |                                                               |                               |                       |                 |fator dominante do gasto (diferença máxima de R$ 78.57  |
-|           |                                                               |                               |                       |                 |entre as especialidades), explicando 15.12% de toda a   |
-|           |                                                               |                               |                       |                 | variação dos tickets na plataforma.                    |
-| H5        | Teste Qui-Quadrado de Independência                           | 0.6951                        | V de Cramér = 0.015   | Não rejeita H0  | Padronização financeira confirmada: os hábitos         |
-|           |                                                               |                               |                       |                 |de pagamento das cidades são equivalentes e             |
-|           |                                                               |                               |                       |                 |independentes da região (V de Cramér = 0.015).          |
-| H6        | Teste t de Student para amostras (Unicaudal)                  | 0.1684                        | R$ +1.44              | Não rejeita H0  | O faturamento médio por pedido não apresenta variações |
-|                                                                                                                                                     | estatisticamente significantes entre os turnos.        |
+|hipotese|teste|p_valor|efeito|decisao|frase_negocio|
+|:---|:---|:---|:---|:---|:---|
+|H1|Teste t de Student para amostras independentes (Unicaudal)|5.6227e-13|+9.51 minutos|Rejeita H0|Operação sob alerta: a chuva causa um impacto logístico severo, aumentando o tempo médio de espera do cliente em 9.51 minutos.|
+|H2|Teste t de Student Welch com ajuste Log|6.1235e-13|R$ -4.97|Rejeita H0|Impacto comercial confirmado: a concessão de cupons altera o ticket médio das vendas em R$ 4.97, mudando o comportamento de gasto dos clientes de forma estatisticamente significante.|
+|H3|Correlação de Spearman + Teste de Mann-Whitney|3.9568e-85|rho = -0.216 / Queda de 0.24 pts|Rejeita H0|Gargalo logístico crítico validado: há uma correlação negativa significante (rho = -0.216). Pedidos entregues até 35 min têm nota média de 4.41, enquanto os acima de 35 min caem para 4.17 (uma perda real de 0.24 pontos na satisfação).|
+|H4|ANOVA One-Way|2.9358e-283|Eta² = 0.151 / Amp = R$ 78.57|Rejeita H0|Cardápio estratégico validado: as culinárias não faturam de forma homogênea. O segmento culinário é o fator dominante do gasto (diferença máxima de R$ 78.57 entre as especialidades), explicando 15.12% de toda a variação dos tickets na plataforma.|
+|H5|Teste Qui-Quadrado de Independência|0.6951|V de Cramér = 0.015|Não rejeita H0|Padronização financeira confirmada: os hábitos de pagamento das cidades são equivalentes e independentes da região (V de Cramér = 0.015).|
+|H6|Teste t de Student para amostras (Unicaudal)|0.1684|R$ +1.44|Não rejeita H0|O faturamento médio por pedido não apresenta variações estatisticamente significantes entre os turnos.|
+
 
 ## 7. Recomendações
 
-| # | Recomendação                                              | Achados que sustentam                                                     |                                       Métrica para acompanhar                                         |
-| 1 | **Encolher o raio de entrega quando chover:**             |**Achado 1** (Dependência de SP) e **Achado 2** (Chuva atrasa em 9,51 min).| **Tempo médio de entrega na chuva** (Meta: limitar o atraso a no máximo 4 minutos acima do normal).   |
-|   | Diminuir a distância máxima das entregas em dias          |                                                                           |                                                                                                       |
-|   | de chuva para evitar atrasos e pagar um valor             |                                                                           |                                                                                                       |
-|   | extra (Surge Pricing) para os motoboys aceitarem          |                                                                           |                                                                                                       |
-|   | as corridas curtas.                                       |                                                                           |                                                                                                       |
-| 2 | **Criar alerta de atrasos e dar cupom corretivo:**        |**Achado 3** (A nota do cliente despenca quando a entrega estoura a        | **Percentual de pedidos com mais de 40 minutos** (Meta: reduzir a taxa atual de 18,32% para menos de  |
-|   |                                                           |                                                                           | 5% em 2025).                                                                                          |
-|   | Disparar um alerta na central se o pedido passar de       | barreira dos 35-40 min).                                                  |                                                                                                       |
-|   | 25 minutos na rua e mandar um cupom automático de         |                                                                           |                                                                                                       |
-|   | desculpas se passar do limite crítico de 40 minutos.      |                                                                           |                                                                                                       |
-| 3 | **Missões de fidelidade para focar em cozinhas caras:**   | **Achado 4** (Japonesa fatura o triplo de Doces)                          | **Taxa de retorno do cliente novo (LTV)** (Meta: fazer com que 40% dos novos usuários comprem         |
-|   | Criar desafios (ex: peça 3 vezes no mês) para prender o   | **Achado 5** (Cupons trazem 34,35% de clientes novos).                    |  novamente em até 30 dias).                                                                           |
-|   | cliente novo que veio por cupom, incentivando o consumo de|                                                                           |                                                                                                       |
-|   | pratos de alto valor como Japonesa e Pizza.               |                                                                           |                                                                                                       |
-   
-
+|#|Recomendação|Achados que sustentam|Métrica para acompanhar|
+|:---|:---|:---|:---|
+|1|**Encolher o raio de entrega quando chover:** Diminuir a distância máxima das entregas em dias de chuva para evitar atrasos e pagar um valor extra (Surge Pricing) para os motoboys aceitarem as corridas curtas.|**Achado 1** (Dependência de SP) e **Achado 2** (Chuva atrasa em 9,51 min).|**Tempo médio de entrega na chuva** (Meta: limitar o atraso a no máximo 4 minutos acima do normal).|
+|2|**Criar alerta de atrasos e dar cupom corretivo:** Disparar um alerta na central se o pedido passar de 25 minutos na rua e mandar um cupom automático de desculpas se passar do limite crítico de 40 minutos.|**Achado 3** (A nota do cliente despenca quando a entrega estoura a barreira dos 35-40 min).|**Percentual de pedidos com mais de 40 minutos** (Meta: reduzir a taxa atual de 18,32% para menos de 5% em 2025).|
+|3|**Missões de fidelidade para focar em cozinhas caras:** Criar desafios (ex: peça 3 vezes no mês) para prender o cliente novo que veio por cupom, incentivando o consumo de pratos de alto valor como Japonesa e Pizza.|**Achado 4** (Japonesa fatura o triplo de Doces) e **Achado 5** (Cupons trazem 34,35% de clientes novos).|**Taxa de retorno do cliente novo (LTV)** (Meta: fazer com que 40% dos novos usuários comprem novamente em até 30 dias).|
+  
 
 ## 8. Limitações
 
-[Pelo menos 3. O que os dados **não** permitem afirmar e por quê. Ex.: ausência de `cliente_id`, ausência de custo do cupom, dados observacionais, um único ano.]
+O que os dados **não** permitem afirmar e por quê. Ex.: ausência de `cliente_id`, ausência de custo do cupom, dados observacionais, um único ano.]
 
 -  Ausência de identificador único do cliente (cliente_id): A falta dessa variável impede o rastreamento do comportamento de compra repetida, impossibilitando a análise de métricas cruciais como Customer Lifetime Value (LTV), taxa de retenção e churn.
 - Falta de dados de custo e margem financeira: A base apresenta apenas o faturamento bruto, sem discriminar o custo das mercadorias vendidas (CMV) ou o valor investido em cupons de desconto, o que impossibilita o cálculo do lucro real e do ROI das campanhas.
@@ -168,7 +143,7 @@ jupyter notebook projeto_final.ipynb
 
 ## 9. Próximos passos
 
-[O que vocês fariam com mais tempo ou mais dados — de preferência transformando cada limitação em uma ação.]
+O que vocês fariam com mais tempo ou mais dados — de preferência transformando cada limitação em uma ação.]
 
 - Usar a coluna de clientes_id para ver preferência de compra, costumes, cupons perssonalizados.
 - Tendo mais anos de pesquisa, traria mais analises do que simplesmente um período de ano, veria se segue o mesmo padrão nos finais de ano, ou se campanhas em outros meses trariam o mesmo retorno de julho.
