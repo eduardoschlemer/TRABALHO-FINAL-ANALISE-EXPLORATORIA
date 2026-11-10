@@ -61,7 +61,7 @@ A diretoria do aplicativo de delivery solicitou um diagnóstico aprofundado das 
 git clone https://github.com/eduardoschlemer/TRABALHO-FINAL-ANALISE-EXPLORATORIA.git
 cd TRABALHO-FINAL-ANALISE-EXPLORATORIA
 python -m venv .venv 
-source .venv/bin/activate     # Windows: .venv\Scripts\activate  ## SE DER ERRO ESCREVA (Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process) e repita o processo 
+.\.venv\Scripts\activate      ## SE DER ERRO ESCREVA (Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process) e repita o processo 
 pip install -r requirements.txt
 jupyter notebook projeto_final.ipynb
 ``` 
