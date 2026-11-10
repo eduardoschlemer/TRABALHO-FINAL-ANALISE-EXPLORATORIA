@@ -1,0 +1,901 @@
+cliente_id,idade,sexo,unidade,plano,mensalidade,data_adesao,frequencia_mensal,pais,status
+1,32,M,Shopping,Anual,89.90,04/06/2024,11.0,Brasil,ativo
+2,16,M,zona sul,Trimestral,104.90,10/02/2024,,Brasil,ativo
+3,54,feminino,ZONA NORTE,Anual,"89,90",03/06/2023,9.0,Brasil,ativo
+4,26,fem,Zona Norte,Mensal,119.90,18/01/2023,3.0,Brasil,ativo
+5,26,F,Centro,Trimestral,"R$ 104,90",16/03/2023,12.0,Brasil,ativo
+6,35,Feminino,Centro,Trimestral,104.90,26/02/2022,10.0,Brasil,ativo
+7,36,M,Centro,Mensal,"R$ 119,90",11/09/2023,9.0,Brasil,ativo
+8,34,M,Shopping,Mensal,"119,90",14/11/2023,,Brasil,ativo
+9,22,M,Centro ,Anual,"89,90",23/07/2024,17.0,Brasil,ativo
+10,41,M,Zona Sul,Mensal,"119,90",21/06/2023,9.0,Brasil,ativo
+11,33,F,Zona Norte,Mensal,119.90,01/12/2023,10.0,Brasil,ativo
+12,27,F,Zona Sul,Mensal,119.90,28/02/2022,3.0,Brasil,ativo
+13,53,,SHOPPING,Mensal,119.90,09/12/2022,0.0,Brasil,ativo
+14,38,F,Zona Sul,Mensal,119.90,05/07/2022,13.0,Brasil,ativo
+15,39,Feminino,zona sul,Anual,"R$ 89,90",28/05/2024,15.0,Brasil,ativo
+16,34,F,Centro,Mensal,"119,90",16/06/2022,,Brasil,ativo
+17,44,feminino,zona norte,Anual,"89,90",19/09/2022,15.0,Brasil,ativo
+18,51,M,Zona Sul,Mensal,"R$ 119,90",24/10/2022,,Brasil,ativo
+19,40,F,Zona Norte,Mensal,"R$ 119,90",12/09/2022,9.0,Brasil,ativo
+20,55,Masculino,Centro ,Trimestral,"104,90",09/04/2023,13.0,Brasil,ativo
+21,16,fem,Centro,Trimestral,104.90,19/12/2023,19.0,Brasil,ativo
+22,50,F,Zona Sul,Anual,"89,90",05/01/2023,17.0,Brasil,ativo
+23,31,M,Centro,Anual,"89,90",23/12/2023,10.0,Brasil,ativo
+24,17,F,Shopping,Mensal,"R$ 119,90",29/11/2023,4.0,Brasil,ativo
+25,32,M,Centro,Mensal,"R$ 119,90",26/03/2023,4.0,Brasil,ativo
+26,47,M,Zona Norte,Mensal,"R$ 119,90",14/07/2023,12.0,Brasil,ativo
+27,18,M,Shopping,Mensal,"119,90",17/05/2024,4.0,Brasil,ativo
+28,44,feminino,Centro,Trimestral,"R$ 104,90",05/06/2024,14.0,Brasil,ativo
+29,35,F,centro,Trimestral,"R$ 104,90",15/06/2024,17.0,Brasil,ativo
+30,45,M,Zona Norte ,Trimestral,"R$ 104,90",04/05/2024,11.0,Brasil,ativo
+31,42,M,Centro,Mensal,"R$ 119,90",11/09/2024,5.0,Brasil,ativo
+32,48,Feminino,Shopping,Trimestral,"R$ 104,90",16/07/2023,4.0,Brasil,ativo
+33,30,M,Zona Norte,Trimestral,104.90,22/08/2022,9.0,Brasil,ativo
+34,24,Masculino,Shopping,Trimestral,104.90,21/07/2024,6.0,Brasil,ativo
+35,51,M,CENTRO,Mensal,"R$ 119,90",29/01/2023,8.0,Brasil,ativo
+36,46,M,Zona Norte,Mensal,"119,90",24/04/2024,14.0,Brasil,ativo
+37,47,M,Centro,Trimestral,104.90,20/06/2022,6.0,Brasil,ativo
+38,36,F,Zona Norte,Anual,"89,90",15/05/2024,14.0,Brasil,ativo
+39,32,F,Zona Sul,Trimestral,"R$ 104,90",15/12/2022,10.0,Brasil,ativo
+40,21,M,Centro,Trimestral,"R$ 104,90",29/08/2024,7.0,Brasil,ativo
+41,30,,Zona Norte,Anual,"R$ 89,90",10/12/2023,13.0,Brasil,ativo
+42,39,M,Zona Sul,Trimestral,"104,90",17/08/2024,11.0,Brasil,ativo
+43,trinta,feminino,Zona Sul,Trimestral,"104,90",04/10/2023,6.0,Brasil,ativo
+44,,F,Centro,Mensal,"R$ 119,90",19/06/2023,5.0,Brasil,ativo
+45,29,F,Centro,Trimestral,104.90,26/03/2024,9.0,Brasil,ativo
+46,27,F,Zona Norte,Trimestral,"104,90",15/01/2024,6.0,Brasil,ativo
+47,18,Masculino,Zona Sul,Mensal,"119,90",13/08/2022,5.0,Brasil,ativo
+48,18,F,Zona Norte,Mensal,"R$ 119,90",11/08/2022,9.0,Brasil,ativo
+49,47,Feminino,Zona Norte,Trimestral,"R$ 104,90",09/03/2022,13.0,Brasil,ativo
+50,16,F,Shopping,Trimestral,"104,90",09/10/2023,10.0,Brasil,ativo
+51,38,masculino,Shopping,Trimestral,"R$ 104,90",21/03/2024,11.0,Brasil,ativo
+52,44,M,Centro,Mensal,"R$ 119,90",18/11/2023,11.0,Brasil,ativo
+53,57,M,Shopping,Mensal,"R$ 119,90",04/03/2023,6.0,Brasil,ativo
+54,36,F,SHOPPING,Mensal,"119,90",20/04/2024,4.0,Brasil,ativo
+55,44,masc,Zona Norte,Anual,"R$ 89,90",03/08/2023,8.0,Brasil,ativo
+56,39,F,Zona Norte,Mensal,119.90,27/05/2022,12.0,Brasil,ativo
+57,35,,Zona Sul ,Mensal,"119,90",09/06/2022,12.0,Brasil,ativo
+58,31,Feminino,Shopping,Trimestral,"R$ 104,90",30/08/2023,13.0,Brasil,ativo
+59,37,Masculino,Zona Sul,Mensal,"R$ 119,90",25/10/2023,8.0,Brasil,ativo
+60,33,masc,Centro,Anual,89.90,27/04/2022,12.0,Brasil,ativo
+61,46,masc,Zona Sul,Mensal,119.90,12/01/2022,8.0,Brasil,ativo
+62,34,fem,Zona Sul,Mensal,"R$ 119,90",18/05/2022,13.0,Brasil,ativo
+63,44,M,Zona Sul,Anual,"R$ 89,90",27/07/2023,11.0,Brasil,ativo
+64,51,M,Shopping,Mensal,"R$ 119,90",06/03/2024,10.0,Brasil,ativo
+65,,F,Zona Sul,Mensal,"119,90",19/05/2024,,Brasil,ativo
+66,20,Feminino,Centro,Mensal,"R$ 119,90",10/11/2022,14.0,Brasil,ativo
+67,36,Masculino,Shopping,Mensal,"R$ 119,90",09/03/2023,15.0,Brasil,ativo
+68,39,Feminino,CENTRO,Mensal,119.90,03/04/2024,0.0,Brasil,ativo
+69,16,F,Zona Sul,Mensal,"R$ 119,90",28/05/2022,9.0,Brasil,ativo
+70,30,Masculino,Shopping,Anual,"R$ 89,90",04/03/2022,14.0,Brasil,ativo
+71,16,F,Zona Sul,Mensal,119.90,18/05/2023,6.0,Brasil,ativo
+72,31,F,Zona Norte ,Mensal,"R$ 119,90",10/12/2022,17.0,Brasil,ativo
+73,21,F,Zona Norte,Mensal,119.90,22/10/2022,8.0,Brasil,ativo
+74,40,F,Shopping,Trimestral,"104,90",19/11/2023,8.0,Brasil,ativo
+75,36,M,Zona Sul,Mensal,119.90,20/07/2022,6.0,Brasil,ativo
+76,17,M,Zona Norte,Anual,"R$ 89,90",28/04/2023,10.0,Brasil,ativo
+77,34,feminino,Zona Norte,Mensal,"R$ 119,90",11/02/2024,9.0,Brasil,ativo
+78,27,M,Centro,Mensal,119.90,13/04/2024,10.0,Brasil,ativo
+79,34,Masculino,Shopping,Mensal,"119,90",12/09/2022,10.0,Brasil,ativo
+80,19,M,Centro ,Trimestral,104.90,01/10/2023,,Brasil,ativo
+81,16,F,Zona Norte,Mensal,119.90,04/12/2022,,Brasil,ativo
+82,20,masculino,Centro,Mensal,119.90,14/05/2022,4.0,Brasil,ativo
+83,28,M,Zona Norte,Mensal,"R$ 119,90",27/05/2022,0.0,Brasil,ativo
+84,48,F,Zona Sul,Mensal,"R$ 119,90",11/10/2023,6.0,Brasil,ativo
+85,16,Feminino,Zona Norte,Anual,89.90,08/10/2022,14.0,Brasil,ativo
+86,28,F,Zona Norte,Anual,"R$ 89,90",19/08/2024,,Brasil,ativo
+87,46,M,CENTRO,Anual,"R$ 89,90",25/06/2023,12.0,Brasil,ativo
+88,,M,Zona Sul,Mensal,"R$ 119,90",29/07/2024,4.0,Brasil,ativo
+89,25,F,Centro,Mensal,"119,90",12/04/2022,12.0,Brasil,ativo
+90,46,feminino,Centro,Trimestral,"R$ 104,90",30/06/2022,13.0,Brasil,ativo
+91,,Masculino,Centro,Anual,"89,90",13/06/2022,16.0,Brasil,ativo
+92,23,F,Shopping,Anual,89.90,22/10/2023,19.0,Brasil,ativo
+93,,F,Centro,Anual,"R$ 89,90",25/06/2024,13.0,Brasil,ativo
+94,41,F,Shopping ,Trimestral,104.90,02/08/2023,19.0,Brasil,ativo
+95,40,masculino,Zona Norte,Trimestral,"R$ 104,90",30/09/2023,17.0,Brasil,ativo
+96,44,M,Zona Norte,Anual,"R$ 89,90",24/08/2022,17.0,Brasil,ativo
+97,33,M,Shopping,Anual,89.90,05/07/2023,15.0,Brasil,ativo
+98,31,masculino,Zona Sul,Mensal,"119,90",27/01/2023,5.0,Brasil,ativo
+99,35,F,Zona Sul,Anual,"89,90",15/04/2023,16.0,Brasil,ativo
+100,36,masculino,Centro,Trimestral,"R$ 104,90",02/02/2024,13.0,Brasil,ativo
+101,37,F,Shopping,Trimestral,"R$ 104,90",26/07/2024,4.0,Brasil,ativo
+102,16,Masculino,Centro,Mensal,119.90,27/09/2023,4.0,Brasil,ativo
+103,20,Masculino,Zona Norte ,Anual,"R$ 89,90",16/10/2023,12.0,Brasil,ativo
+104,39,F,Zona Norte,Trimestral,104.90,27/05/2023,4.0,Brasil,ativo
+105,32,M,Centro,Mensal,"R$ 119,90",18/12/2022,10.0,Brasil,ativo
+106,21,M,Centro,Anual,"R$ 89,90",19/05/2024,14.0,Brasil,ativo
+107,41,F,Zona Sul,Trimestral,"R$ 104,90",04/06/2023,5.0,Brasil,ativo
+108,29,masculino,Shopping,Trimestral,104.90,04/04/2022,11.0,Brasil,ativo
+109,32,masculino,Zona Norte,Mensal,"R$ 119,90",30/05/2024,12.0,Brasil,ativo
+110,16,masc,Zona Norte,Trimestral,"R$ 104,90",01/02/2022,8.0,Brasil,ativo
+111,39,M,ZONA SUL,Anual,"89,90",20/08/2022,11.0,Brasil,ativo
+112,43,,Shopping,Trimestral,"R$ 104,90",11/11/2022,10.0,Brasil,ativo
+113,44,M,Centro,Anual,"89,90",01/11/2022,21.0,Brasil,ativo
+114,54,F,Zona Sul,Mensal,"R$ 119,90",19/12/2023,1.0,Brasil,ativo
+115,33,F,Zona Sul,Trimestral,"R$ 104,90",21/08/2024,2.0,Brasil,ativo
+116,25,M,CENTRO,Mensal,119.90,08/11/2022,5.0,Brasil,ativo
+117,25,Feminino,Zona Norte,Mensal,"R$ 119,90",11/03/2023,9.0,Brasil,ativo
+118,26,M,Zona Sul,Trimestral,104.90,19/02/2023,,Brasil,ativo
+119,46,F,Zona Sul,Mensal,"R$ 119,90",09/10/2023,11.0,Brasil,ativo
+120,54,M,Centro,Trimestral,"104,90",15/08/2024,6.0,Brasil,ativo
+121,44,M,Centro,Anual,"89,90",21/07/2024,14.0,Brasil,ativo
+122,42,M,Zona Sul,Trimestral,"R$ 104,90",22/11/2023,4.0,Brasil,ativo
+123,22,F,Centro,Mensal,"R$ 119,90",26/02/2022,9.0,Brasil,ativo
+124,37,F,Centro,Mensal,119.90,28/09/2022,6.0,Brasil,ativo
+125,32,masc,Centro,Mensal,"119,90",22/04/2024,11.0,Brasil,ativo
+126,57,M,Zona Sul,Mensal,119.90,22/03/2022,6.0,Brasil,ativo
+127,36,feminino,Zona Norte,Trimestral,104.90,25/02/2022,13.0,Brasil,ativo
+128,35,Feminino,Centro,Trimestral,104.90,19/08/2024,0.0,Brasil,ativo
+129,40,F,Centro,Trimestral,"R$ 104,90",20/09/2024,7.0,Brasil,ativo
+130,16,masculino,Centro,Trimestral,"104,90",26/01/2022,6.0,Brasil,ativo
+131,45,M,ZONA NORTE,Mensal,119.90,17/01/2022,6.0,Brasil,ativo
+132,55,masc,Zona Sul,Trimestral,104.90,24/02/2023,6.0,Brasil,ativo
+133,22,feminino,ZONA SUL,Mensal,"R$ 119,90",10/07/2023,3.0,Brasil,ativo
+134,47,F,Centro,Mensal,119.90,28/12/2023,6.0,Brasil,ativo
+135,44,M,Zona Sul,Trimestral,"R$ 104,90",29/07/2022,6.0,Brasil,ativo
+136,46,F,Zona Sul,Trimestral,"R$ 104,90",02/05/2022,7.0,Brasil,ativo
+137,42,F,Centro,Mensal,"R$ 119,90",17/03/2024,10.0,Brasil,ativo
+138,45,F,Zona Norte,Mensal,"R$ 119,90",24/06/2023,6.0,Brasil,ativo
+139,37,feminino,Shopping,Mensal,"R$ 119,90",27/05/2022,15.0,Brasil,ativo
+140,48,feminino,Zona Sul,Anual,"89,90",27/08/2024,13.0,Brasil,ativo
+141,32,Masculino,Zona Norte,Mensal,"R$ 119,90",28/06/2023,9.0,Brasil,ativo
+142,26,F,Zona Norte,Anual,"R$ 89,90",02/05/2024,,Brasil,ativo
+143,35,F,Centro ,Mensal,119.90,26/11/2023,10.0,Brasil,ativo
+144,16,Feminino,Zona Sul,Mensal,"R$ 119,90",04/08/2022,1.0,Brasil,ativo
+145,,masculino,shopping,Mensal,119.90,01/09/2023,9.0,Brasil,ativo
+146,35,M,Zona Sul,Anual,"R$ 89,90",25/01/2023,,Brasil,ativo
+147,40,M,Shopping,Trimestral,"R$ 104,90",02/09/2023,9.0,Brasil,ativo
+148,50,F,Zona Sul,Mensal,"119,90",27/12/2022,8.0,Brasil,ativo
+149,24,M,Centro ,Anual,"R$ 89,90",29/06/2022,,Brasil,ativo
+150,37,feminino,Shopping,Anual,"R$ 89,90",01/06/2024,,Brasil,ativo
+151,55,Feminino,centro,Trimestral,"R$ 104,90",07/10/2023,13.0,Brasil,ativo
+152,38,,Zona Norte,Anual,"R$ 89,90",17/06/2023,11.0,Brasil,ativo
+153,16,Feminino,shopping,Mensal,119.90,26/07/2024,,Brasil,ativo
+154,32,M,Shopping,Mensal,"R$ 119,90",15/08/2023,9.0,Brasil,ativo
+155,38,Masculino,SHOPPING,Mensal,119.90,03/07/2023,11.0,Brasil,ativo
+156,45,masc,ZONA NORTE,Mensal,"R$ 119,90",07/09/2022,15.0,Brasil,ativo
+157,45,M,Shopping,Mensal,"R$ 119,90",27/05/2022,1.0,Brasil,ativo
+158,26,masc,centro,Anual,"R$ 89,90",11/01/2024,15.0,Brasil,ativo
+159,22,M,Zona Norte,Mensal,"R$ 119,90",23/08/2024,7.0,Brasil,ativo
+160,38,F,Zona Sul,Mensal,119.90,21/09/2023,13.0,Brasil,ativo
+161,34,M,Zona Sul,Mensal,"R$ 119,90",08/07/2024,13.0,Brasil,ativo
+162,,M,Centro,Mensal,"R$ 119,90",07/07/2022,11.0,Brasil,ativo
+163,50,F,Centro,Mensal,119.90,19/05/2023,16.0,Brasil,ativo
+164,17,Feminino,zona sul,Mensal,119.90,12/04/2022,8.0,Brasil,ativo
+165,43,fem,Zona Sul,Mensal,119.90,24/09/2024,9.0,Brasil,ativo
+166,33,feminino,Zona Norte,Trimestral,"R$ 104,90",11/01/2024,7.0,Brasil,ativo
+167,34,masculino,Zona Sul,Anual,"R$ 89,90",12/01/2022,10.0,Brasil,ativo
+168,36,F,Centro,Mensal,"R$ 119,90",03/09/2022,,Brasil,ativo
+169,32,F,Zona Norte,Mensal,"R$ 119,90",17/03/2023,9.0,Brasil,ativo
+170,22,fem,Centro,Mensal,119.90,28/02/2022,6.0,Brasil,ativo
+171,47,Masculino,zona sul,Mensal,119.90,12/11/2022,4.0,Brasil,ativo
+172,24,masculino,Shopping,Mensal,119.90,20/05/2023,9.0,Brasil,ativo
+173,,masculino,Zona Sul,Mensal,119.90,20/03/2022,8.0,Brasil,ativo
+174,42,M,Shopping,Mensal,"R$ 119,90",06/09/2023,8.0,Brasil,ativo
+175,49,M,Zona Norte,Trimestral,"104,90",04/05/2022,8.0,Brasil,ativo
+176,25,masc,centro,Anual,"R$ 89,90",06/01/2022,6.0,Brasil,ativo
+177,25,F,zona sul,Trimestral,"R$ 104,90",13/08/2023,7.0,Brasil,ativo
+178,22,feminino,Centro,Mensal,119.90,20/09/2023,,Brasil,ativo
+179,32,F,Centro,Trimestral,"R$ 104,90",01/02/2023,8.0,Brasil,ativo
+180,38,M,Centro,Mensal,"R$ 119,90",10/09/2022,14.0,Brasil,ativo
+181,43,F,Shopping,Anual,"R$ 89,90",01/12/2023,15.0,Brasil,ativo
+182,31,M,Shopping,Mensal,"R$ 119,90",01/05/2023,7.0,Brasil,ativo
+183,30,F,zona norte,Trimestral,"R$ 104,90",30/06/2022,8.0,Brasil,ativo
+184,19,F,shopping,Trimestral,104.90,17/11/2022,11.0,Brasil,ativo
+185,27,Masculino,Zona Sul,Mensal,"119,90",10/07/2022,0.0,Brasil,ativo
+186,47,F,Centro,Mensal,"R$ 119,90",04/10/2022,8.0,Brasil,ativo
+187,56,Masculino,Centro,Mensal,119.90,23/02/2024,12.0,Brasil,ativo
+188,63,M,Centro,Mensal,"R$ 119,90",09/08/2022,6.0,Brasil,ativo
+189,34,M,Centro,Trimestral,"R$ 104,90",18/07/2022,,Brasil,ativo
+190,41,Feminino,Zona Sul,Mensal,"R$ 119,90",11/05/2022,,Brasil,ativo
+191,45,M,Zona Norte,Mensal,"R$ 119,90",31/08/2023,6.0,Brasil,ativo
+192,31,Feminino,Zona Norte,Mensal,"119,90",15/04/2024,10.0,Brasil,ativo
+193,31,masc,Shopping,Mensal,"R$ 119,90",03/05/2024,12.0,Brasil,ativo
+194,21,F,Centro ,Mensal,"R$ 119,90",05/05/2024,11.0,Brasil,ativo
+195,36,fem,Centro,Anual,89.90,08/08/2023,15.0,Brasil,ativo
+196,39,F,Zona Norte,Trimestral,104.90,17/05/2022,10.0,Brasil,ativo
+197,40,M,Shopping,Mensal,"R$ 119,90",14/04/2023,4.0,Brasil,ativo
+198,34,,Zona Norte,Anual,"89,90",16/11/2022,13.0,Brasil,ativo
+199,30,Masculino,Zona Sul,Mensal,"R$ 119,90",02/02/2024,10.0,Brasil,ativo
+200,37,Feminino,Centro,Mensal,"R$ 119,90",18/02/2024,8.0,Brasil,ativo
+201,17,masc,Centro,Mensal,"R$ 119,90",15/01/2023,9.0,Brasil,ativo
+202,48,,Centro,Anual,"R$ 89,90",09/08/2022,9.0,Brasil,ativo
+203,34,Feminino,centro,Trimestral,"R$ 104,90",03/06/2022,8.0,Brasil,ativo
+204,38,F,Centro,Mensal,"R$ 119,90",14/07/2022,6.0,Brasil,ativo
+205,26,masc,Zona Norte,Mensal,"R$ 119,90",13/04/2024,9.0,Brasil,ativo
+206,29,M,Centro,Mensal,"119,90",21/09/2024,8.0,Brasil,ativo
+207,,M,Zona Norte,Mensal,"R$ 119,90",31/03/2023,16.0,Brasil,ativo
+208,30,F,Zona Sul,Anual,"R$ 89,90",18/04/2022,17.0,Brasil,ativo
+209,41,,Centro,Trimestral,"R$ 104,90",25/12/2023,5.0,Brasil,ativo
+210,20,fem,zona sul,Anual,"R$ 89,90",23/01/2023,15.0,Brasil,ativo
+211,16,F,Shopping,Mensal,"R$ 119,90",13/12/2022,13.0,Brasil,ativo
+212,36,masc,ZONA NORTE,Trimestral,"104,90",27/11/2023,8.0,Brasil,ativo
+213,43,M,Zona Sul,Mensal,119.90,20/06/2023,7.0,Brasil,ativo
+214,38,M,ZONA NORTE,Trimestral,"R$ 104,90",17/07/2022,13.0,Brasil,ativo
+215,43,M,Zona Sul,Mensal,"R$ 119,90",21/03/2023,7.0,Brasil,ativo
+216,37,M,Centro,Trimestral,"R$ 104,90",03/03/2024,8.0,Brasil,ativo
+217,40,M,shopping,Mensal,119.90,06/01/2022,7.0,Brasil,ativo
+218,42,F,Zona Sul,Trimestral,"104,90",19/07/2023,2.0,Brasil,ativo
+219,45,M,Shopping,Mensal,119.90,21/08/2022,13.0,Brasil,ativo
+220,26,M,Centro,Anual,"R$ 89,90",18/06/2023,15.0,Brasil,ativo
+221,,feminino,centro,Trimestral,"104,90",13/02/2023,10.0,Brasil,ativo
+222,34,F,Centro,Trimestral,104.90,28/09/2022,12.0,Brasil,ativo
+223,31,F,Zona Norte,Trimestral,"104,90",03/09/2024,9.0,Brasil,ativo
+224,29,M,Centro,Mensal,"119,90",05/01/2022,14.0,Brasil,ativo
+225,47,,zona sul,Trimestral,"104,90",17/06/2022,11.0,Brasil,ativo
+226,45,F,Centro,Trimestral,"R$ 104,90",10/10/2022,3.0,Brasil,ativo
+227,28,feminino,Zona Sul,Mensal,119.90,24/03/2024,10.0,Brasil,ativo
+228,28,F,Shopping ,Mensal,"R$ 119,90",23/06/2024,10.0,Brasil,ativo
+229,39,Feminino,Shopping,Anual,"R$ 89,90",18/09/2022,12.0,Brasil,ativo
+230,40,Feminino,Zona Sul,Anual,89.90,26/09/2024,18.0,Brasil,ativo
+231,33,F,centro,Trimestral,104.90,19/08/2022,13.0,Brasil,ativo
+232,,M,Zona Sul,Anual,"89,90",12/07/2022,10.0,Brasil,ativo
+233,35,Masculino,Zona Norte,Mensal,"R$ 119,90",17/02/2022,11.0,Brasil,ativo
+234,43,fem,Centro ,Mensal,119.90,04/09/2022,10.0,Brasil,ativo
+235,43,masc,Centro,Anual,"R$ 89,90",19/12/2022,15.0,Brasil,ativo
+236,43,F,zona sul,Mensal,"119,90",20/06/2022,,Brasil,ativo
+237,34,M,Zona Norte,Mensal,"R$ 119,90",24/07/2022,8.0,Brasil,ativo
+238,55,M,Zona Sul,Mensal,"R$ 119,90",07/01/2023,3.0,Brasil,ativo
+239,32,F,centro,Mensal,"R$ 119,90",28/05/2023,5.0,Brasil,ativo
+240,42,Masculino,Centro,Mensal,119.90,26/04/2024,6.0,Brasil,ativo
+241,34,Masculino,Zona Norte,Trimestral,"R$ 104,90",31/08/2023,13.0,Brasil,ativo
+242,37,M,Centro,Anual,"R$ 89,90",15/12/2022,3.0,Brasil,ativo
+243,37,Feminino,Shopping,Trimestral,104.90,25/04/2023,13.0,Brasil,ativo
+244,48,masc,Zona Sul,Trimestral,"R$ 104,90",27/11/2022,10.0,Brasil,ativo
+245,29,M,ZONA NORTE,Mensal,"R$ 119,90",29/12/2023,12.0,Brasil,ativo
+246,38,F,Zona Norte,Trimestral,104.90,05/12/2023,6.0,Brasil,ativo
+247,19,Masculino,zona norte,Anual,"R$ 89,90",19/02/2023,13.0,Brasil,ativo
+248,32,M,Centro ,Mensal,119.90,31/07/2022,,Brasil,ativo
+249,,M,Zona Norte,Trimestral,104.90,20/06/2023,10.0,Brasil,ativo
+250,32,F,zona norte,Trimestral,"R$ 104,90",15/08/2023,4.0,Brasil,ativo
+251,33,Masculino,Shopping,Anual,89.90,07/03/2023,11.0,Brasil,ativo
+252,45,Masculino,Zona Norte,Anual,89.90,28/08/2022,14.0,Brasil,ativo
+253,34,M,Shopping,Mensal,"R$ 119,90",07/02/2023,10.0,Brasil,ativo
+254,41,Feminino,Shopping,Mensal,"119,90",01/09/2024,11.0,Brasil,ativo
+255,56,masc,SHOPPING,Mensal,"R$ 119,90",24/05/2022,10.0,Brasil,ativo
+256,35,F,Zona Sul,Mensal,"119,90",11/08/2022,9.0,Brasil,ativo
+257,56,fem,zona sul,Mensal,119.90,06/02/2023,7.0,Brasil,ativo
+258,21,masculino,Shopping,Trimestral,104.90,06/03/2022,11.0,Brasil,ativo
+259,18,M,Centro,Trimestral,"R$ 104,90",23/12/2022,11.0,Brasil,ativo
+260,29,feminino,Zona Sul,Trimestral,"R$ 104,90",10/04/2023,,Brasil,ativo
+261,25,Masculino,Centro,Mensal,"R$ 119,90",07/05/2023,9.0,Brasil,ativo
+262,18,F,Shopping,Mensal,"R$ 119,90",19/05/2022,7.0,Brasil,ativo
+263,23,M,Shopping,Anual,89.90,24/11/2022,,Brasil,ativo
+264,20,M,Centro,Anual,"R$ 89,90",01/03/2024,8.0,Brasil,ativo
+265,999,M,Shopping,Mensal,"119,90",12/05/2023,15.0,Brasil,ativo
+266,36,F,Shopping,Trimestral,104.90,14/05/2022,13.0,Brasil,ativo
+267,32,feminino,Shopping,Mensal,"R$ 119,90",05/09/2023,8.0,Brasil,ativo
+268,16,F,Centro,Trimestral,"104,90",16/08/2023,,Brasil,ativo
+269,31,feminino,centro,Anual,"R$ 89,90",30/07/2022,16.0,Brasil,ativo
+270,38,F,Zona Sul,Mensal,"R$ 119,90",11/02/2023,7.0,Brasil,ativo
+271,38,M,Centro,Mensal,"119,90",27/08/2024,,Brasil,ativo
+272,33,M,Zona Sul,Trimestral,104.90,15/10/2023,6.0,Brasil,ativo
+273,60,F,Centro,Mensal,"R$ 119,90",26/01/2024,8.0,Brasil,ativo
+274,36,Masculino,Centro,Mensal,119.90,04/03/2022,,Brasil,ativo
+275,50,M,Zona Sul,Mensal,"R$ 119,90",15/12/2022,4.0,Brasil,ativo
+276,26,F,Zona Norte,Trimestral,"R$ 104,90",07/03/2022,5.0,Brasil,ativo
+277,45,Masculino,Shopping,Mensal,"R$ 119,90",26/11/2023,13.0,Brasil,ativo
+278,,fem,Shopping,Trimestral,"104,90",04/05/2024,1.0,Brasil,ativo
+279,38,F,Zona Sul,Anual,"R$ 89,90",30/06/2024,13.0,Brasil,ativo
+280,24,,Centro,Trimestral,"104,90",31/05/2022,9.0,Brasil,ativo
+281,27,M,Zona Norte,Mensal,"R$ 119,90",07/11/2023,9.0,Brasil,ativo
+282,40,masculino,Zona Sul,Mensal,"R$ 119,90",20/03/2024,10.0,Brasil,ativo
+283,27,masc,Centro,Mensal,"R$ 119,90",16/05/2023,11.0,Brasil,ativo
+284,56,M,Zona Norte,Mensal,"119,90",16/03/2024,15.0,Brasil,ativo
+285,57,Feminino,zona sul,Mensal,"119,90",29/03/2023,8.0,Brasil,ativo
+286,49,M,Shopping,Anual,"89,90",03/08/2022,17.0,Brasil,ativo
+287,26,F,Centro,Mensal,"R$ 119,90",14/11/2023,9.0,Brasil,ativo
+288,32,F,Zona Sul,Anual,"R$ 89,90",10/07/2022,16.0,Brasil,ativo
+289,46,,SHOPPING,Mensal,119.90,18/04/2022,12.0,Brasil,ativo
+290,31,M,Zona Norte,Anual,"R$ 89,90",16/06/2024,,Brasil,ativo
+291,35,M,Shopping,Mensal,"R$ 119,90",24/01/2022,8.0,Brasil,ativo
+292,23,M,Centro ,Trimestral,"R$ 104,90",01/03/2024,3.0,Brasil,ativo
+293,19,,ZONA NORTE,Trimestral,"R$ 104,90",14/01/2023,8.0,Brasil,ativo
+294,38,F,Zona Sul,Trimestral,"R$ 104,90",25/05/2022,8.0,Brasil,ativo
+295,40,M,Shopping,Trimestral,"104,90",18/03/2022,9.0,Brasil,ativo
+296,28,M,Centro ,Trimestral,"R$ 104,90",21/05/2023,12.0,Brasil,ativo
+297,38,F,CENTRO,Mensal,119.90,20/08/2024,9.0,Brasil,ativo
+298,36,masc,Centro,Anual,"R$ 89,90",31/12/2022,,Brasil,ativo
+299,36,feminino,SHOPPING,Anual,"R$ 89,90",02/08/2022,8.0,Brasil,ativo
+300,42,F,Zona Norte,Anual,"89,90",25/06/2024,16.0,Brasil,ativo
+301,26,M,Shopping,Trimestral,"R$ 104,90",11/08/2022,13.0,Brasil,ativo
+302,37,M,Shopping,Trimestral,"R$ 104,90",26/01/2024,4.0,Brasil,ativo
+303,45,Masculino,Shopping,Trimestral,"R$ 104,90",01/05/2023,9.0,Brasil,ativo
+304,22,Feminino,Zona Sul,Anual,89.90,04/04/2024,14.0,Brasil,ativo
+305,58,M,Zona Sul,Trimestral,"R$ 104,90",29/06/2022,9.0,Brasil,ativo
+306,30,M,Shopping,Mensal,119.90,19/10/2023,11.0,Brasil,ativo
+307,16,masculino,Shopping,Trimestral,"R$ 104,90",15/10/2023,20.0,Brasil,ativo
+308,16,M,Zona Norte,Anual,"R$ 89,90",03/09/2022,7.0,Brasil,ativo
+309,37,Masculino,Centro,Mensal,"119,90",05/07/2024,4.0,Brasil,ativo
+310,37,Masculino,zona norte,Trimestral,"R$ 104,90",11/04/2022,7.0,Brasil,ativo
+311,29,F,Zona Sul,Anual,89.90,28/09/2023,13.0,Brasil,ativo
+312,22,M,Zona Sul ,Anual,"R$ 89,90",13/07/2023,13.0,Brasil,ativo
+313,31,masculino,Zona Norte,Mensal,119.90,17/10/2023,10.0,Brasil,ativo
+314,44,M,zona sul,Mensal,"R$ 119,90",30/09/2022,8.0,Brasil,ativo
+315,26,F,Zona Norte,Anual,"R$ 89,90",19/04/2024,13.0,Brasil,ativo
+316,42,F,Centro,Anual,"R$ 89,90",16/07/2023,,Brasil,ativo
+317,46,fem,Shopping,Mensal,"119,90",13/11/2022,11.0,Brasil,ativo
+318,38,M,Zona Sul,Anual,"89,90",13/02/2024,15.0,Brasil,ativo
+319,50,feminino,Shopping,Mensal,"R$ 119,90",12/07/2024,2.0,Brasil,ativo
+320,42,M,Zona Sul,Trimestral,104.90,24/10/2022,6.0,Brasil,ativo
+321,27,M,ZONA SUL,Mensal,"119,90",12/06/2022,13.0,Brasil,ativo
+322,19,F,Centro,Mensal,"119,90",13/05/2023,10.0,Brasil,ativo
+323,44,masc,Zona Sul,Mensal,119.90,14/07/2022,,Brasil,ativo
+324,49,fem,Zona Norte,Mensal,119.90,26/06/2024,10.0,Brasil,ativo
+325,21,F,Centro,Mensal,"R$ 119,90",18/05/2024,8.0,Brasil,ativo
+326,21,F,Zona Norte,Mensal,119.90,09/03/2024,10.0,Brasil,ativo
+327,35,masculino,Zona Norte,Anual,"89,90",26/04/2022,20.0,Brasil,ativo
+328,28,F,Zona Sul,Anual,"R$ 89,90",08/07/2023,9.0,Brasil,ativo
+329,48,M,Centro,Trimestral,"R$ 104,90",20/03/2023,12.0,Brasil,ativo
+330,52,F,Zona Norte ,Mensal,119.90,21/07/2023,15.0,Brasil,ativo
+331,32,feminino,Zona Sul,Mensal,"R$ 119,90",07/02/2022,9.0,Brasil,ativo
+332,30,F,Centro,Mensal,"R$ 119,90",06/05/2022,7.0,Brasil,ativo
+333,16,Feminino,Centro,Trimestral,104.90,27/06/2023,10.0,Brasil,ativo
+334,37,feminino,Zona Norte ,Mensal,119.90,04/07/2023,9.0,Brasil,ativo
+335,30,Masculino,Zona Norte,Anual,89.90,15/01/2022,11.0,Brasil,ativo
+336,16,feminino,Zona Sul,Mensal,"R$ 119,90",08/08/2023,11.0,Brasil,ativo
+337,43,Feminino,Centro,Mensal,"119,90",17/03/2023,0.0,Brasil,ativo
+338,38,M,Shopping,Trimestral,"R$ 104,90",16/07/2024,4.0,Brasil,ativo
+339,53,M,Zona Norte,Trimestral,"104,90",24/11/2022,2.0,Brasil,ativo
+340,45,M,Centro,Mensal,"R$ 119,90",02/05/2022,18.0,Brasil,ativo
+341,47,fem,Shopping,Anual,89.90,02/09/2024,,Brasil,ativo
+342,29,M,CENTRO,Mensal,"R$ 119,90",15/10/2023,16.0,Brasil,ativo
+343,27,M,SHOPPING,Anual,"R$ 89,90",02/08/2024,13.0,Brasil,ativo
+344,53,Masculino,Centro,Mensal,"R$ 119,90",24/08/2024,7.0,Brasil,ativo
+345,22,F,Centro,Anual,89.90,23/05/2022,19.0,Brasil,ativo
+346,30,F,Shopping,Trimestral,"104,90",18/08/2023,14.0,Brasil,ativo
+347,46,fem,shopping,Trimestral,"R$ 104,90",19/04/2022,9.0,Brasil,ativo
+348,26,Masculino,ZONA SUL,Trimestral,104.90,29/05/2022,9.0,Brasil,ativo
+349,31,fem,ZONA NORTE,Mensal,119.90,12/01/2023,8.0,Brasil,ativo
+350,,M,Shopping,Trimestral,104.90,02/04/2023,18.0,Brasil,ativo
+351,24,Masculino,Zona Norte,Mensal,"R$ 119,90",24/10/2022,17.0,Brasil,ativo
+352,31,masculino,ZONA SUL,Mensal,"R$ 119,90",08/09/2022,11.0,Brasil,ativo
+353,51,M,Centro,Trimestral,104.90,19/10/2022,13.0,Brasil,ativo
+354,44,masculino,Centro,Mensal,"R$ 119,90",15/03/2024,7.0,Brasil,ativo
+355,19,F,Zona Norte,Mensal,"R$ 119,90",19/08/2024,11.0,Brasil,ativo
+356,46,Masculino,Centro,Trimestral,"R$ 104,90",16/07/2024,7.0,Brasil,ativo
+357,19,F,Zona Sul,Anual,"R$ 89,90",14/11/2023,10.0,Brasil,ativo
+358,39,F,ZONA SUL,Trimestral,"R$ 104,90",26/03/2024,,Brasil,ativo
+359,24,F,ZONA SUL,Mensal,"R$ 119,90",17/12/2023,,Brasil,ativo
+360,,F,Zona Sul,Mensal,"R$ 119,90",24/09/2024,11.0,Brasil,ativo
+361,64,fem,Zona Sul,Mensal,"R$ 119,90",01/02/2022,7.0,Brasil,ativo
+362,33,M,centro,Anual,"89,90",09/10/2023,16.0,Brasil,ativo
+363,45,F,Centro,Trimestral,104.90,30/03/2023,5.0,Brasil,ativo
+364,47,F,Shopping,Mensal,119.90,09/04/2022,8.0,Brasil,ativo
+365,19,M,Zona Sul,Trimestral,"R$ 104,90",27/01/2024,11.0,Brasil,ativo
+366,26,Masculino,Centro,Trimestral,"R$ 104,90",25/03/2024,8.0,Brasil,ativo
+367,,feminino,Shopping,Mensal,"119,90",16/08/2022,19.0,Brasil,ativo
+368,,Masculino,Zona Sul,Trimestral,104.90,27/04/2022,,Brasil,ativo
+369,38,F,CENTRO,Mensal,"119,90",28/04/2022,12.0,Brasil,ativo
+370,21,M,Centro,Mensal,119.90,04/05/2023,17.0,Brasil,ativo
+371,22,Masculino,Zona Sul,Mensal,"R$ 119,90",27/03/2024,9.0,Brasil,ativo
+372,38,masculino,Centro,Mensal,"R$ 119,90",11/06/2022,9.0,Brasil,ativo
+373,-1,masc,Shopping,Anual,"89,90",22/04/2023,8.0,Brasil,ativo
+374,47,M,zona norte,Trimestral,"R$ 104,90",31/05/2024,11.0,Brasil,ativo
+375,20,M,Zona Sul,Mensal,119.90,23/10/2022,12.0,Brasil,ativo
+376,46,M,ZONA SUL,Trimestral,104.90,14/12/2022,0.0,Brasil,ativo
+377,41,feminino,Shopping,Mensal,"R$ 119,90",17/11/2023,7.0,Brasil,ativo
+378,18,Masculino,Zona Norte,Mensal,119.90,26/04/2022,14.0,Brasil,ativo
+379,52,F,Centro,Trimestral,"R$ 104,90",08/04/2024,15.0,Brasil,ativo
+380,37,F,Shopping,Anual,"89,90",03/08/2024,16.0,Brasil,ativo
+381,39,M,Centro,Anual,89.90,21/06/2023,7.0,Brasil,ativo
+382,47,masculino,Shopping,Mensal,"R$ 119,90",26/03/2023,5.0,Brasil,ativo
+383,53,feminino,Zona Sul,Mensal,119.90,21/09/2022,8.0,Brasil,ativo
+384,45,M,shopping,Anual,89.90,06/09/2023,13.0,Brasil,ativo
+385,34,M,Centro,Mensal,"R$ 119,90",20/01/2022,14.0,Brasil,ativo
+386,32,feminino,Zona Norte,Trimestral,"R$ 104,90",15/10/2022,5.0,Brasil,ativo
+387,22,F,centro,Mensal,"R$ 119,90",11/09/2024,13.0,Brasil,ativo
+388,45,F,Zona Sul,Mensal,"R$ 119,90",25/05/2022,13.0,Brasil,ativo
+389,48,M,Shopping,Anual,89.90,13/04/2022,16.0,Brasil,ativo
+390,44,fem,Zona Norte,Mensal,"R$ 119,90",18/07/2024,15.0,Brasil,ativo
+391,21,M,ZONA SUL,Trimestral,104.90,02/01/2024,4.0,Brasil,ativo
+392,33,Masculino,Centro,Trimestral,"R$ 104,90",17/02/2024,9.0,Brasil,ativo
+393,24,F,Centro,Anual,"R$ 89,90",28/08/2024,16.0,Brasil,ativo
+394,55,M,Centro,Trimestral,"R$ 104,90",21/09/2023,12.0,Brasil,ativo
+395,36,M,SHOPPING,Trimestral,"R$ 104,90",11/12/2023,7.0,Brasil,ativo
+396,37,feminino,Zona Norte,Mensal,119.90,21/03/2024,9.0,Brasil,ativo
+397,16,Masculino,Centro,Trimestral,104.90,12/08/2022,9.0,Brasil,ativo
+398,31,feminino,Zona Sul,Trimestral,"104,90",21/02/2023,6.0,Brasil,ativo
+399,46,M,zona norte,Trimestral,104.90,06/04/2024,14.0,Brasil,ativo
+400,38,F,Shopping,Mensal,"R$ 119,90",24/12/2023,12.0,Brasil,ativo
+401,51,fem,Zona Norte,Mensal,"R$ 119,90",01/05/2023,10.0,Brasil,ativo
+402,31,masc,Centro,Mensal,"R$ 119,90",09/10/2023,8.0,Brasil,ativo
+403,24,,Centro,Mensal,"119,90",17/04/2023,5.0,Brasil,ativo
+404,34,M,Zona Sul,Mensal,"R$ 119,90",06/08/2022,,Brasil,ativo
+405,31,masc,Zona Norte,Anual,89.90,13/04/2023,9.0,Brasil,ativo
+406,49,F,Centro,Mensal,119.90,04/01/2022,7.0,Brasil,ativo
+407,50,F,Zona Sul,Mensal,119.90,02/10/2023,12.0,Brasil,ativo
+408,,,Zona Sul,Mensal,"R$ 119,90",14/04/2022,4.0,Brasil,ativo
+409,33,,ZONA NORTE,Trimestral,"R$ 104,90",04/05/2023,10.0,Brasil,ativo
+410,28,masc,Shopping,Mensal,"119,90",21/01/2024,9.0,Brasil,ativo
+411,36,M,Zona Norte,Trimestral,"R$ 104,90",11/06/2024,10.0,Brasil,ativo
+412,16,M,Zona Sul,Mensal,"R$ 119,90",11/08/2024,15.0,Brasil,ativo
+413,36,M,Zona Sul ,Mensal,"119,90",02/06/2023,5.0,Brasil,ativo
+414,30,Feminino,Centro,Mensal,119.90,08/05/2023,5.0,Brasil,ativo
+415,36,F,Centro,Trimestral,"R$ 104,90",13/06/2024,7.0,Brasil,ativo
+416,36,F,Zona Sul,Mensal,"R$ 119,90",08/02/2024,14.0,Brasil,ativo
+417,31,F,Centro,Mensal,119.90,31/12/2022,,Brasil,ativo
+418,32,M,Zona Norte,Mensal,119.90,19/10/2022,,Brasil,ativo
+419,23,F,Zona Sul,Mensal,"R$ 119,90",20/07/2023,8.0,Brasil,ativo
+420,23,M,centro,Anual,"R$ 89,90",09/04/2022,8.0,Brasil,ativo
+421,27,F,Centro ,Trimestral,104.90,14/03/2022,12.0,Brasil,ativo
+422,44,Feminino,Zona Sul ,Anual,"R$ 89,90",31/05/2022,12.0,Brasil,ativo
+423,32,M,Zona Norte,Mensal,"119,90",28/07/2022,9.0,Brasil,ativo
+424,52,M,Centro,Mensal,"R$ 119,90",18/06/2022,7.0,Brasil,ativo
+425,35,Feminino,Centro ,Trimestral,"R$ 104,90",14/08/2022,8.0,Brasil,ativo
+426,19,M,ZONA NORTE,Mensal,"R$ 119,90",29/01/2022,,Brasil,ativo
+427,30,feminino,Zona Norte,Mensal,"R$ 119,90",01/01/2022,11.0,Brasil,ativo
+428,33,F,centro,Mensal,"R$ 119,90",14/02/2023,18.0,Brasil,ativo
+429,30,F,Zona Sul,Mensal,"R$ 119,90",14/04/2023,,Brasil,ativo
+430,16,fem,zona norte,Trimestral,"104,90",11/03/2023,10.0,Brasil,ativo
+431,29,masculino,Zona Sul,Anual,89.90,10/03/2023,7.0,Brasil,ativo
+432,37,F,Zona Sul,Anual,89.90,21/06/2024,17.0,Brasil,ativo
+433,40,M,CENTRO,Mensal,"119,90",01/09/2024,5.0,Brasil,ativo
+434,16,M,Centro,Anual,"R$ 89,90",23/10/2022,15.0,Brasil,ativo
+435,42,M,Centro,Trimestral,104.90,20/03/2023,5.0,Brasil,ativo
+436,57,Feminino,Shopping ,Trimestral,"R$ 104,90",25/06/2023,3.0,Brasil,ativo
+437,30,Masculino,Zona Sul,Mensal,"119,90",20/04/2022,4.0,Brasil,ativo
+438,54,M,Zona Norte,Anual,"R$ 89,90",04/01/2024,17.0,Brasil,ativo
+439,44,F,Centro,Mensal,"R$ 119,90",04/11/2022,12.0,Brasil,ativo
+440,35,M,Centro,Mensal,"119,90",11/03/2024,,Brasil,ativo
+441,29,M,zona norte,Anual,"R$ 89,90",03/08/2023,10.0,Brasil,ativo
+442,42,M,Centro,Anual,89.90,28/04/2024,16.0,Brasil,ativo
+443,32,F,Zona Norte,Mensal,119.90,16/04/2023,8.0,Brasil,ativo
+444,37,F,Zona Sul,Trimestral,"R$ 104,90",25/04/2022,9.0,Brasil,ativo
+445,16,F,CENTRO,Mensal,"R$ 119,90",22/04/2024,10.0,Brasil,ativo
+446,43,Masculino,Centro,Trimestral,"R$ 104,90",20/04/2022,12.0,Brasil,ativo
+447,42,M,Zona Norte,Anual,"R$ 89,90",11/04/2024,10.0,Brasil,ativo
+448,21,F,SHOPPING,Trimestral,"R$ 104,90",13/07/2024,7.0,Brasil,ativo
+449,16,Masculino,SHOPPING,Mensal,"R$ 119,90",16/12/2023,7.0,Brasil,ativo
+450,40,Masculino,Zona Sul,Anual,"89,90",24/02/2024,12.0,Brasil,ativo
+451,38,F,Zona Norte,Trimestral,"R$ 104,90",30/04/2023,14.0,Brasil,ativo
+452,37,fem,Centro,Anual,"R$ 89,90",01/02/2023,,Brasil,ativo
+453,29,F,centro,Mensal,"119,90",07/10/2023,10.0,Brasil,ativo
+454,52,F,Zona Sul,Trimestral,"R$ 104,90",26/07/2022,,Brasil,ativo
+455,19,F,Centro,Anual,"R$ 89,90",14/01/2024,21.0,Brasil,ativo
+456,39,M,centro,Mensal,"R$ 119,90",19/03/2024,6.0,Brasil,ativo
+457,18,masculino,Shopping,Anual,"R$ 89,90",24/03/2023,13.0,Brasil,ativo
+458,19,F,Shopping ,Mensal,"R$ 119,90",05/08/2024,9.0,Brasil,ativo
+459,40,F,Zona Norte,Trimestral,"R$ 104,90",27/12/2023,14.0,Brasil,ativo
+460,26,fem,Zona Norte,Mensal,"R$ 119,90",17/07/2023,10.0,Brasil,ativo
+461,55,M,SHOPPING,Mensal,119.90,25/07/2024,8.0,Brasil,ativo
+462,18,fem,Zona Sul,Mensal,119.90,05/10/2022,11.0,Brasil,ativo
+463,37,F,centro,Anual,"R$ 89,90",11/01/2024,15.0,Brasil,ativo
+464,56,feminino,ZONA NORTE,Mensal,"R$ 119,90",28/05/2023,9.0,Brasil,ativo
+465,27,F,Zona Sul ,Mensal,"119,90",01/10/2022,13.0,Brasil,ativo
+466,35,Masculino,Zona Sul,Trimestral,"R$ 104,90",28/08/2023,6.0,Brasil,ativo
+467,31,M,Zona Sul ,Trimestral,"R$ 104,90",08/03/2023,6.0,Brasil,ativo
+468,40,Feminino,Zona Norte,Trimestral,"R$ 104,90",26/04/2022,4.0,Brasil,ativo
+469,53,F,Shopping,Anual,"R$ 89,90",04/07/2022,11.0,Brasil,ativo
+470,35,feminino,Centro,Mensal,"R$ 119,90",23/11/2023,8.0,Brasil,ativo
+471,25,F,Zona Sul,Mensal,"R$ 119,90",14/06/2022,0.0,Brasil,ativo
+472,31,fem,Centro,Mensal,"R$ 119,90",07/07/2023,,Brasil,ativo
+473,16,M,Zona Sul,Anual,"R$ 89,90",22/03/2022,14.0,Brasil,ativo
+474,,F,Zona Norte,Trimestral,104.90,01/11/2023,6.0,Brasil,ativo
+475,23,F,Centro,Mensal,"R$ 119,90",18/08/2023,9.0,Brasil,ativo
+476,33,feminino,Centro ,Trimestral,"104,90",13/02/2024,,Brasil,ativo
+477,53,masc,Zona Norte,Mensal,"R$ 119,90",26/04/2022,,Brasil,ativo
+478,16,M,Centro,Mensal,"R$ 119,90",18/10/2022,8.0,Brasil,ativo
+479,32,M,centro,Trimestral,"R$ 104,90",23/04/2023,7.0,Brasil,ativo
+480,65,F,Zona Sul,Trimestral,"R$ 104,90",13/06/2023,15.0,Brasil,ativo
+481,42,M,Shopping,Trimestral,"R$ 104,90",06/10/2022,9.0,Brasil,ativo
+482,17,M,Centro,Trimestral,"104,90",01/03/2024,4.0,Brasil,ativo
+483,35,F,Shopping,Mensal,"R$ 119,90",01/01/2024,13.0,Brasil,ativo
+484,,F,Centro,Trimestral,"R$ 104,90",18/05/2022,,Brasil,ativo
+485,43,M,Zona Norte,Trimestral,"R$ 104,90",17/07/2023,4.0,Brasil,ativo
+486,36,feminino,Zona Sul,Trimestral,104.90,03/05/2023,16.0,Brasil,ativo
+487,25,fem,Zona Norte,Anual,"R$ 89,90",25/01/2023,16.0,Brasil,ativo
+488,33,,Zona Sul,Anual,"R$ 89,90",04/03/2024,14.0,Brasil,ativo
+489,21,M,SHOPPING,Trimestral,104.90,16/09/2023,9.0,Brasil,ativo
+490,34,Feminino,Centro,Mensal,"R$ 119,90",15/06/2022,8.0,Brasil,ativo
+491,37,,Zona Norte,Mensal,"R$ 119,90",11/08/2023,19.0,Brasil,ativo
+492,,M,Zona Sul,Mensal,"R$ 119,90",23/01/2024,9.0,Brasil,ativo
+493,16,Feminino,Centro,Mensal,"R$ 119,90",05/02/2022,11.0,Brasil,ativo
+494,,F,Centro,Anual,89.90,09/11/2023,,Brasil,ativo
+495,61,masc,Centro,Mensal,"R$ 119,90",04/06/2024,,Brasil,ativo
+496,43,F,Zona Norte,Mensal,119.90,10/05/2022,10.0,Brasil,ativo
+497,40,F,Zona Sul,Trimestral,104.90,01/05/2022,17.0,Brasil,ativo
+498,38,F,Zona Sul,Mensal,"R$ 119,90",10/02/2022,7.0,Brasil,ativo
+499,29,Masculino,Zona Sul,Trimestral,"R$ 104,90",28/02/2022,15.0,Brasil,ativo
+500,43,F,Zona Norte,Mensal,"R$ 119,90",03/08/2023,13.0,Brasil,ativo
+501,,M,Zona Sul ,Mensal,"R$ 119,90",01/10/2023,7.0,Brasil,ativo
+502,51,,Centro,Trimestral,"R$ 104,90",06/01/2024,6.0,Brasil,ativo
+503,33,F,Centro,Trimestral,"104,90",27/05/2023,7.0,Brasil,ativo
+504,17,M,Zona Sul,Mensal,"R$ 119,90",12/07/2024,7.0,Brasil,ativo
+505,29,F,Zona Sul,Trimestral,"R$ 104,90",10/08/2023,8.0,Brasil,ativo
+506,19,feminino,zona norte,Mensal,"R$ 119,90",28/03/2024,,Brasil,ativo
+507,51,Feminino,centro,Mensal,"R$ 119,90",08/05/2022,7.0,Brasil,ativo
+508,29,masc,Zona Sul,Anual,"R$ 89,90",04/02/2023,13.0,Brasil,ativo
+509,27,Masculino,Zona Sul,Trimestral,"R$ 104,90",08/07/2023,9.0,Brasil,ativo
+510,31,M,Zona Sul,Anual,"R$ 89,90",02/12/2023,20.0,Brasil,ativo
+511,26,masc,Zona Norte,Mensal,"119,90",03/04/2022,,Brasil,ativo
+512,16,M,Shopping,Mensal,119.90,26/12/2022,17.0,Brasil,ativo
+513,30,F,Zona Sul,Anual,"R$ 89,90",01/08/2024,21.0,Brasil,ativo
+514,35,M,Centro,Mensal,"119,90",18/03/2024,15.0,Brasil,ativo
+515,49,F,Zona Sul,Mensal,"R$ 119,90",28/07/2022,9.0,Brasil,ativo
+516,28,M,Zona Norte,Trimestral,"R$ 104,90",01/10/2022,9.0,Brasil,ativo
+517,40,Feminino,ZONA SUL,Mensal,"R$ 119,90",26/07/2022,3.0,Brasil,ativo
+518,39,masculino,Zona Sul,Mensal,"119,90",19/01/2023,5.0,Brasil,ativo
+519,38,feminino,Shopping,Trimestral,"R$ 104,90",18/12/2022,5.0,Brasil,ativo
+520,54,F,Centro,Trimestral,"R$ 104,90",16/03/2024,3.0,Brasil,ativo
+521,18,M,ZONA SUL,Anual,"R$ 89,90",31/03/2023,5.0,Brasil,ativo
+522,39,M,Zona Sul,Mensal,"R$ 119,90",03/09/2024,7.0,Brasil,ativo
+523,30,M,CENTRO,Trimestral,104.90,02/03/2022,8.0,Brasil,ativo
+524,34,M,CENTRO,Mensal,"R$ 119,90",02/08/2023,10.0,Brasil,ativo
+525,34,F,Zona Norte,Anual,"R$ 89,90",14/07/2024,16.0,Brasil,ativo
+526,40,M,Zona Sul,Mensal,"R$ 119,90",30/04/2024,0.0,Brasil,ativo
+527,42,Masculino,CENTRO,Trimestral,"104,90",10/04/2024,0.0,Brasil,ativo
+528,24,Feminino,Zona Norte,Trimestral,104.90,11/09/2023,,Brasil,ativo
+529,26,F,Zona Sul,Anual,"R$ 89,90",11/08/2023,10.0,Brasil,ativo
+530,36,Feminino,Zona Norte,Trimestral,"104,90",01/12/2023,10.0,Brasil,ativo
+531,26,M,Shopping,Mensal,"R$ 119,90",20/10/2022,12.0,Brasil,ativo
+532,21,M,Centro,Anual,"R$ 89,90",06/06/2023,15.0,Brasil,ativo
+533,40,M,Centro,Trimestral,104.90,12/06/2023,4.0,Brasil,ativo
+534,27,M,Centro,Mensal,"R$ 119,90",10/03/2023,11.0,Brasil,ativo
+535,27,M,Centro,Mensal,119.90,22/03/2023,15.0,Brasil,ativo
+536,40,feminino,Zona Norte ,Trimestral,"R$ 104,90",19/10/2022,6.0,Brasil,ativo
+537,45,masculino,Zona Norte,Trimestral,"R$ 104,90",07/08/2023,4.0,Brasil,ativo
+538,47,F,Centro,Anual,"R$ 89,90",17/08/2022,12.0,Brasil,ativo
+539,39,M,Shopping,Anual,"R$ 89,90",07/09/2023,8.0,Brasil,ativo
+540,51,Feminino,Zona Norte,Mensal,"119,90",21/03/2023,10.0,Brasil,ativo
+541,45,masc,Centro,Mensal,"R$ 119,90",17/08/2024,7.0,Brasil,ativo
+542,49,masc,Zona Norte,Mensal,"R$ 119,90",01/11/2022,6.0,Brasil,ativo
+543,31,Masculino,shopping,Anual,"R$ 89,90",07/03/2023,16.0,Brasil,ativo
+544,42,feminino,Zona Norte,Trimestral,"104,90",28/07/2023,6.0,Brasil,ativo
+545,44,M,Shopping,Mensal,119.90,05/08/2024,9.0,Brasil,ativo
+546,46,M,ZONA NORTE,Trimestral,"104,90",15/01/2024,2.0,Brasil,ativo
+547,42,Masculino,Zona Sul,Mensal,"119,90",26/10/2023,14.0,Brasil,ativo
+548,49,feminino,Centro ,Anual,"89,90",24/08/2024,14.0,Brasil,ativo
+549,33,feminino,Zona Norte,Trimestral,"R$ 104,90",18/11/2022,6.0,Brasil,ativo
+550,33,M,Centro,Trimestral,"104,90",22/02/2024,10.0,Brasil,ativo
+551,35,Masculino,Zona Norte,Anual,89.90,16/07/2023,8.0,Brasil,ativo
+552,32,M,Zona Norte,Anual,"89,90",14/06/2023,14.0,Brasil,ativo
+553,36,F,Centro,Mensal,"R$ 119,90",31/10/2023,9.0,Brasil,ativo
+554,,F,Centro,Trimestral,"R$ 104,90",08/05/2022,4.0,Brasil,ativo
+555,18,feminino,Shopping,Trimestral,"R$ 104,90",23/01/2024,7.0,Brasil,ativo
+556,,Feminino,centro,Mensal,"119,90",05/07/2024,12.0,Brasil,ativo
+557,35,M,Centro,Anual,89.90,06/11/2023,13.0,Brasil,ativo
+558,16,F,Shopping ,Mensal,"R$ 119,90",21/02/2022,8.0,Brasil,ativo
+559,30,M,Shopping,Anual,"R$ 89,90",10/12/2023,13.0,Brasil,ativo
+560,30,M,Zona Norte,Mensal,"R$ 119,90",19/11/2022,12.0,Brasil,ativo
+561,28,F,Centro,Trimestral,104.90,05/05/2024,12.0,Brasil,ativo
+562,18,Masculino,Zona Norte,Anual,"R$ 89,90",04/02/2023,9.0,Brasil,ativo
+563,60,F,SHOPPING,Anual,"R$ 89,90",25/10/2022,14.0,Brasil,ativo
+564,31,Feminino,Zona Norte,Anual,"R$ 89,90",17/03/2024,10.0,Brasil,ativo
+565,33,masculino,Centro,Mensal,119.90,28/02/2022,9.0,Brasil,ativo
+566,33,F,Zona Norte,Trimestral,"R$ 104,90",21/10/2023,11.0,Brasil,ativo
+567,23,masculino,Zona Sul,Anual,"R$ 89,90",20/02/2022,3.0,Brasil,ativo
+568,43,F,Centro,Trimestral,"104,90",04/01/2023,12.0,Brasil,ativo
+569,39,M,Centro,Trimestral,"R$ 104,90",25/06/2023,9.0,Brasil,ativo
+570,49,,centro,Mensal,119.90,05/07/2024,10.0,Brasil,ativo
+571,46,F,Centro,Mensal,"R$ 119,90",13/08/2023,12.0,Brasil,ativo
+572,59,Feminino,Centro,Anual,"R$ 89,90",23/10/2023,19.0,Brasil,ativo
+573,37,Masculino,Zona Norte ,Trimestral,104.90,10/04/2024,5.0,Brasil,ativo
+574,33,Masculino,Shopping,Mensal,"R$ 119,90",19/08/2023,13.0,Brasil,ativo
+575,29,Feminino,Zona Norte,Mensal,"R$ 119,90",04/08/2023,8.0,Brasil,ativo
+576,29,F,Zona Norte,Trimestral,"104,90",13/03/2022,11.0,Brasil,ativo
+577,21,feminino,Zona Sul,Anual,"R$ 89,90",08/01/2024,8.0,Brasil,ativo
+578,16,feminino,ZONA NORTE,Mensal,119.90,15/11/2022,2.0,Brasil,ativo
+579,37,M,Shopping,Mensal,119.90,07/02/2022,9.0,Brasil,ativo
+580,21,M,Centro,Anual,89.90,27/11/2022,10.0,Brasil,ativo
+581,35,F,Centro ,Mensal,119.90,27/08/2024,,Brasil,ativo
+582,60,fem,Centro,Trimestral,"R$ 104,90",13/03/2023,7.0,Brasil,ativo
+583,51,F,Zona Sul,Anual,"R$ 89,90",11/12/2022,,Brasil,ativo
+584,37,masculino,Zona Sul,Mensal,119.90,10/05/2022,12.0,Brasil,ativo
+585,38,Masculino,Zona Sul,Trimestral,"R$ 104,90",13/11/2023,,Brasil,ativo
+586,40,masc,Shopping,Trimestral,"104,90",05/06/2024,7.0,Brasil,ativo
+587,26,Feminino,Zona Norte ,Trimestral,"R$ 104,90",17/08/2024,4.0,Brasil,ativo
+588,22,fem,Shopping,Mensal,"119,90",14/08/2024,7.0,Brasil,ativo
+589,30,F,Zona Sul,Mensal,"R$ 119,90",28/03/2023,,Brasil,ativo
+590,20,F,Zona Sul,Trimestral,"R$ 104,90",17/06/2022,13.0,Brasil,ativo
+591,43,M,SHOPPING,Mensal,"R$ 119,90",21/01/2022,17.0,Brasil,ativo
+592,42,Masculino,Zona Sul,Trimestral,"R$ 104,90",18/03/2024,10.0,Brasil,ativo
+593,35,F,Shopping,Trimestral,"R$ 104,90",24/02/2024,14.0,Brasil,ativo
+594,33,F,ZONA SUL,Trimestral,"R$ 104,90",05/03/2022,,Brasil,ativo
+595,32,masc,Shopping,Mensal,"119,90",15/02/2023,9.0,Brasil,ativo
+596,34,Masculino,Shopping,Mensal,"R$ 119,90",26/01/2023,8.0,Brasil,ativo
+597,36,M,ZONA NORTE,Mensal,"R$ 119,90",11/06/2022,,Brasil,ativo
+598,48,M,Shopping,Anual,89.90,08/06/2022,16.0,Brasil,ativo
+599,32,F,Zona Sul,Anual,"R$ 89,90",17/01/2023,16.0,Brasil,ativo
+600,56,Feminino,Centro,Mensal,"R$ 119,90",24/02/2022,13.0,Brasil,ativo
+601,48,Feminino,Zona Sul,Mensal,"R$ 119,90",06/08/2024,12.0,Brasil,ativo
+602,32,Feminino,centro,Mensal,"R$ 119,90",19/02/2022,13.0,Brasil,ativo
+603,26,F,Zona Norte,Mensal,119.90,23/07/2023,,Brasil,ativo
+604,53,M,Zona Norte,Mensal,"R$ 119,90",16/09/2023,8.0,Brasil,ativo
+605,49,F,Centro,Trimestral,"104,90",11/05/2022,6.0,Brasil,ativo
+606,29,M,Zona Norte,Trimestral,"R$ 104,90",28/08/2022,9.0,Brasil,ativo
+607,0,Masculino,Zona Sul,Mensal,119.90,14/11/2023,7.0,Brasil,ativo
+608,,,Zona Sul,Trimestral,104.90,16/12/2023,12.0,Brasil,ativo
+609,24,F,Centro,Anual,"89,90",24/03/2024,15.0,Brasil,ativo
+610,23,M,Centro,Anual,"R$ 89,90",31/07/2023,12.0,Brasil,ativo
+611,32,M,Centro,Mensal,"R$ 119,90",09/05/2022,6.0,Brasil,ativo
+612,,M,Zona Norte,Anual,"89,90",01/08/2023,,Brasil,ativo
+613,43,feminino,shopping,Mensal,"119,90",25/09/2022,10.0,Brasil,ativo
+614,33,F,Centro,Anual,"R$ 89,90",23/10/2022,19.0,Brasil,ativo
+615,56,F,Shopping ,Mensal,119.90,03/02/2024,9.0,Brasil,ativo
+616,48,M,Zona Sul,Mensal,"R$ 119,90",04/07/2022,,Brasil,ativo
+617,23,Feminino,Centro,Anual,"R$ 89,90",05/11/2022,,Brasil,ativo
+618,36,masculino,Zona Sul,Trimestral,"R$ 104,90",25/11/2022,,Brasil,ativo
+619,19,M,Zona Sul,Mensal,119.90,08/12/2023,0.0,Brasil,ativo
+620,36,masculino,Shopping,Mensal,"R$ 119,90",10/01/2023,10.0,Brasil,ativo
+621,21,M,Zona Norte,Trimestral,104.90,18/01/2022,8.0,Brasil,ativo
+622,34,F,Zona Sul,Mensal,"119,90",11/05/2022,,Brasil,ativo
+623,37,M,Centro,Mensal,119.90,24/01/2024,9.0,Brasil,ativo
+624,31,F,Shopping,Trimestral,"104,90",09/01/2022,10.0,Brasil,ativo
+625,26,M,CENTRO,Trimestral,"R$ 104,90",03/07/2024,6.0,Brasil,ativo
+626,19,F,Zona Sul,Mensal,"119,90",20/11/2022,6.0,Brasil,ativo
+627,31,fem,Centro,Trimestral,"R$ 104,90",19/12/2023,13.0,Brasil,ativo
+628,,F,Zona Sul,Trimestral,"104,90",09/09/2023,4.0,Brasil,ativo
+629,34,feminino,Zona Sul,Mensal,"119,90",28/02/2023,,Brasil,ativo
+630,41,masculino,shopping,Mensal,"119,90",07/05/2024,5.0,Brasil,ativo
+631,43,masculino,Centro,Mensal,"R$ 119,90",17/01/2022,11.0,Brasil,ativo
+632,31,M,Zona Norte,Anual,"R$ 89,90",05/06/2024,16.0,Brasil,ativo
+633,46,F,Centro,Mensal,"R$ 119,90",29/04/2024,8.0,Brasil,ativo
+634,21,Masculino,Zona Sul,Trimestral,"R$ 104,90",09/02/2022,3.0,Brasil,ativo
+635,43,F,Shopping,Anual,"R$ 89,90",04/11/2023,12.0,Brasil,ativo
+636,30,M,Centro,Anual,"89,90",18/07/2022,20.0,Brasil,ativo
+637,48,F,Zona Sul,Mensal,"119,90",12/04/2023,5.0,Brasil,ativo
+638,23,M,Centro,Anual,"89,90",13/07/2024,,Brasil,ativo
+639,30,F,Centro,Trimestral,"R$ 104,90",14/08/2022,,Brasil,ativo
+640,28,Feminino,CENTRO,Mensal,"R$ 119,90",24/12/2023,2.0,Brasil,ativo
+641,29,feminino,centro,Trimestral,"R$ 104,90",23/10/2023,16.0,Brasil,ativo
+642,28,Masculino,Zona Sul,Anual,89.90,07/12/2023,10.0,Brasil,ativo
+643,34,fem,Zona Norte,Anual,"R$ 89,90",24/04/2023,11.0,Brasil,ativo
+644,42,F,ZONA SUL,Anual,"R$ 89,90",26/06/2024,9.0,Brasil,ativo
+645,19,M,Centro,Mensal,"R$ 119,90",21/07/2024,12.0,Brasil,ativo
+646,30,Feminino,Zona Norte,Anual,"R$ 89,90",26/09/2024,14.0,Brasil,ativo
+647,41,M,Centro,Anual,89.90,21/11/2022,5.0,Brasil,ativo
+648,50,M,Shopping,Mensal,"R$ 119,90",25/12/2022,9.0,Brasil,ativo
+649,,,Centro,Mensal,"119,90",14/08/2023,11.0,Brasil,ativo
+650,45,M,ZONA SUL,Mensal,"119,90",29/10/2022,0.0,Brasil,ativo
+651,26,M,Zona Norte,Mensal,"119,90",10/08/2024,8.0,Brasil,ativo
+652,43,feminino,Zona Norte,Trimestral,"R$ 104,90",25/06/2024,14.0,Brasil,ativo
+653,43,F,ZONA NORTE,Mensal,"R$ 119,90",14/05/2024,8.0,Brasil,ativo
+654,27,F,Centro,Mensal,"119,90",10/11/2023,7.0,Brasil,ativo
+655,42,F,ZONA NORTE,Mensal,"R$ 119,90",22/07/2022,12.0,Brasil,ativo
+656,26,M,CENTRO,Anual,89.90,17/03/2023,17.0,Brasil,ativo
+657,31,feminino,Zona Norte,Mensal,"R$ 119,90",23/06/2022,3.0,Brasil,ativo
+658,38,F,Zona Norte,Mensal,"R$ 119,90",30/05/2023,3.0,Brasil,ativo
+659,38,M,Centro,Trimestral,"R$ 104,90",09/01/2023,11.0,Brasil,ativo
+660,38,F,Shopping ,Mensal,"R$ 119,90",30/03/2024,5.0,Brasil,ativo
+661,16,M,Shopping,Trimestral,"R$ 104,90",01/05/2024,12.0,Brasil,ativo
+662,32,masculino,Centro,Trimestral,"R$ 104,90",27/03/2024,8.0,Brasil,ativo
+663,43,Feminino,ZONA SUL,Mensal,"119,90",10/10/2022,5.0,Brasil,ativo
+664,16,F,ZONA NORTE,Trimestral,104.90,10/12/2022,18.0,Brasil,ativo
+665,34,M,Centro,Mensal,"119,90",15/08/2022,13.0,Brasil,ativo
+666,35,M,Zona Sul,Mensal,"R$ 119,90",16/05/2023,13.0,Brasil,ativo
+667,999,M,Zona Norte,Trimestral,"R$ 104,90",10/09/2024,8.0,Brasil,ativo
+668,53,F,Centro,Trimestral,"R$ 104,90",04/02/2024,5.0,Brasil,ativo
+669,30,masc,Shopping,Mensal,"119,90",07/08/2022,12.0,Brasil,ativo
+670,45,M,ZONA NORTE,Mensal,"R$ 119,90",21/08/2023,7.0,Brasil,ativo
+671,30,M,Zona Norte,Mensal,"R$ 119,90",23/05/2024,5.0,Brasil,ativo
+672,30,Feminino,Zona Sul,Trimestral,"104,90",29/06/2022,10.0,Brasil,ativo
+673,44,M,Zona Norte,Trimestral,"104,90",19/10/2023,14.0,Brasil,ativo
+674,48,F,ZONA NORTE,Mensal,"119,90",12/08/2024,9.0,Brasil,ativo
+675,49,M,Centro,Mensal,"R$ 119,90",25/03/2023,13.0,Brasil,ativo
+676,29,M,Zona Norte,Anual,"R$ 89,90",22/10/2022,21.0,Brasil,ativo
+677,32,masculino,Zona Norte,Trimestral,"104,90",24/08/2023,,Brasil,ativo
+678,47,F,Shopping ,Mensal,"R$ 119,90",13/12/2023,10.0,Brasil,ativo
+679,54,,Centro,Mensal,"R$ 119,90",28/10/2022,11.0,Brasil,ativo
+680,16,Masculino,Centro,Mensal,119.90,08/08/2024,,Brasil,ativo
+681,41,M,Zona Sul,Mensal,"R$ 119,90",17/06/2022,9.0,Brasil,ativo
+682,31,M,Shopping,Anual,89.90,03/04/2023,21.0,Brasil,ativo
+683,31,Feminino,Centro,Mensal,"119,90",05/11/2022,5.0,Brasil,ativo
+684,28,Masculino,Zona Sul,Mensal,"119,90",29/06/2024,0.0,Brasil,ativo
+685,37,M,Zona Sul,Trimestral,"R$ 104,90",04/07/2024,11.0,Brasil,ativo
+686,33,M,Shopping,Trimestral,"104,90",10/01/2024,14.0,Brasil,ativo
+687,29,F,zona norte,Mensal,119.90,18/08/2024,17.0,Brasil,ativo
+688,38,Feminino,Centro,Mensal,"R$ 119,90",06/08/2023,7.0,Brasil,ativo
+689,27,Masculino,Shopping,Mensal,"R$ 119,90",19/12/2022,13.0,Brasil,ativo
+690,34,F,zona sul,Mensal,119.90,16/05/2022,8.0,Brasil,ativo
+691,35,Masculino,CENTRO,Trimestral,"R$ 104,90",08/12/2023,12.0,Brasil,ativo
+692,,F,Centro ,Trimestral,"R$ 104,90",29/03/2023,,Brasil,ativo
+693,44,M,Zona Sul,Trimestral,"104,90",11/08/2022,14.0,Brasil,ativo
+694,51,feminino,Zona Sul,Trimestral,"R$ 104,90",15/02/2022,11.0,Brasil,ativo
+695,,Feminino,Zona Sul ,Mensal,"R$ 119,90",08/03/2024,8.0,Brasil,ativo
+696,29,,Zona Norte,Anual,"R$ 89,90",31/12/2022,17.0,Brasil,ativo
+697,24,masculino,Centro,Mensal,"R$ 119,90",01/06/2024,4.0,Brasil,ativo
+698,43,masculino,Shopping,Trimestral,"104,90",19/07/2022,12.0,Brasil,ativo
+699,33,masculino,Centro,Anual,"R$ 89,90",05/02/2022,13.0,Brasil,ativo
+700,52,F,ZONA NORTE,Mensal,"119,90",16/02/2022,11.0,Brasil,ativo
+701,32,F,Zona Norte,Trimestral,"104,90",19/02/2024,5.0,Brasil,ativo
+702,33,F,Zona Norte,Trimestral,"104,90",19/11/2023,8.0,Brasil,ativo
+703,45,F,Zona Norte,Mensal,119.90,25/09/2022,10.0,Brasil,ativo
+704,24,F,Shopping,Mensal,"119,90",10/03/2022,,Brasil,ativo
+705,41,,Centro ,Trimestral,"R$ 104,90",29/03/2023,10.0,Brasil,ativo
+706,41,M,Zona Norte,Mensal,119.90,20/10/2022,8.0,Brasil,ativo
+707,39,masc,Zona Sul,Mensal,"R$ 119,90",03/02/2024,,Brasil,ativo
+708,35,Masculino,Zona Sul,Mensal,"119,90",04/03/2024,8.0,Brasil,ativo
+709,48,F,shopping,Trimestral,"R$ 104,90",01/06/2023,9.0,Brasil,ativo
+710,19,masc,Centro,Trimestral,104.90,05/11/2022,10.0,Brasil,ativo
+711,43,,centro,Mensal,"R$ 119,90",28/07/2022,17.0,Brasil,ativo
+712,36,M,Centro,Trimestral,104.90,18/03/2024,5.0,Brasil,ativo
+713,40,Feminino,Shopping,Trimestral,"R$ 104,90",12/05/2023,4.0,Brasil,ativo
+714,35,M,Zona Norte,Mensal,"R$ 119,90",26/05/2024,10.0,Brasil,ativo
+715,34,F,Shopping,Mensal,119.90,28/06/2023,8.0,Brasil,ativo
+716,42,masculino,Zona Norte,Mensal,119.90,05/12/2022,5.0,Brasil,ativo
+717,40,masculino,Zona Sul ,Trimestral,104.90,23/11/2023,5.0,Brasil,ativo
+718,38,M,SHOPPING,Mensal,"R$ 119,90",20/11/2023,13.0,Brasil,ativo
+719,33,F,Centro,Anual,89.90,08/09/2023,6.0,Brasil,ativo
+720,19,masculino,Zona Norte,Trimestral,"104,90",19/09/2024,,Brasil,ativo
+721,33,M,Centro,Mensal,119.90,24/02/2023,3.0,Brasil,ativo
+722,27,F,Shopping,Anual,"89,90",14/07/2022,8.0,Brasil,ativo
+723,34,M,Centro,Anual,89.90,16/11/2023,,Brasil,ativo
+724,42,F,Zona Sul,Trimestral,"R$ 104,90",28/06/2023,8.0,Brasil,ativo
+725,29,F,Centro,Trimestral,104.90,28/06/2022,9.0,Brasil,ativo
+726,36,M,Zona Norte,Mensal,"R$ 119,90",05/06/2022,7.0,Brasil,ativo
+727,50,M,Shopping,Trimestral,"R$ 104,90",17/05/2023,5.0,Brasil,ativo
+728,24,M,Zona Sul,Anual,89.90,21/08/2024,13.0,Brasil,ativo
+729,57,M,Centro,Trimestral,"R$ 104,90",12/08/2022,,Brasil,ativo
+730,51,Masculino,Centro,Anual,"89,90",19/07/2024,,Brasil,ativo
+731,48,M,Zona Norte,Trimestral,"104,90",30/07/2023,10.0,Brasil,ativo
+732,32,feminino,Centro,Mensal,119.90,10/07/2023,6.0,Brasil,ativo
+733,21,M,Centro,Mensal,"119,90",08/06/2022,7.0,Brasil,ativo
+734,26,M,Zona Sul,Anual,"89,90",16/05/2024,16.0,Brasil,ativo
+735,17,F,Centro,Trimestral,"R$ 104,90",10/10/2023,11.0,Brasil,ativo
+736,20,Feminino,Centro,Mensal,"R$ 119,90",04/11/2022,8.0,Brasil,ativo
+737,37,Feminino,Zona Sul,Trimestral,"R$ 104,90",20/05/2023,17.0,Brasil,ativo
+738,22,Feminino,Zona Sul,Trimestral,"R$ 104,90",07/09/2023,7.0,Brasil,ativo
+739,25,F,Shopping,Mensal,"R$ 119,90",29/12/2022,5.0,Brasil,ativo
+740,32,M,ZONA NORTE,Trimestral,"R$ 104,90",03/08/2023,14.0,Brasil,ativo
+741,19,M,CENTRO,Trimestral,"R$ 104,90",30/09/2022,5.0,Brasil,ativo
+742,,masculino,ZONA NORTE,Mensal,"R$ 119,90",28/10/2022,9.0,Brasil,ativo
+743,17,F,Centro ,Mensal,"R$ 119,90",11/07/2023,15.0,Brasil,ativo
+744,25,M,Centro,Trimestral,"104,90",06/01/2023,8.0,Brasil,ativo
+745,28,M,Centro,Trimestral,"R$ 104,90",11/05/2022,12.0,Brasil,ativo
+746,25,feminino,Zona Norte,Mensal,"119,90",20/01/2022,7.0,Brasil,ativo
+747,38,M,Centro,Anual,"R$ 89,90",25/05/2024,,Brasil,ativo
+748,16,F,ZONA SUL,Anual,"R$ 89,90",18/04/2024,11.0,Brasil,ativo
+749,40,F,ZONA SUL,Trimestral,"R$ 104,90",05/09/2024,8.0,Brasil,ativo
+750,29,Masculino,shopping,Trimestral,104.90,20/09/2024,18.0,Brasil,ativo
+751,16,feminino,Zona Norte,Anual,"R$ 89,90",11/05/2023,20.0,Brasil,ativo
+752,23,F,Zona Norte,Mensal,"R$ 119,90",14/02/2024,10.0,Brasil,ativo
+753,43,,Shopping,Trimestral,"104,90",14/06/2024,11.0,Brasil,ativo
+754,23,masc,Shopping,Trimestral,"104,90",28/10/2022,3.0,Brasil,ativo
+755,38,Feminino,Centro,Mensal,"R$ 119,90",21/07/2022,9.0,Brasil,ativo
+756,43,Feminino,Zona Norte,Trimestral,"104,90",28/08/2023,,Brasil,ativo
+757,44,Masculino,SHOPPING,Trimestral,104.90,15/03/2022,11.0,Brasil,ativo
+758,48,masculino,Centro,Trimestral,"R$ 104,90",11/01/2024,16.0,Brasil,ativo
+759,29,,Centro,Mensal,"R$ 119,90",31/05/2024,14.0,Brasil,ativo
+760,27,M,Zona Sul,Mensal,119.90,07/07/2024,16.0,Brasil,ativo
+761,43,M,zona norte,Mensal,119.90,01/03/2024,12.0,Brasil,ativo
+762,34,M,Zona Sul,Mensal,"R$ 119,90",05/08/2023,16.0,Brasil,ativo
+763,28,masculino,Zona Norte,Mensal,"R$ 119,90",20/03/2022,15.0,Brasil,ativo
+764,21,M,Zona Sul,Mensal,"R$ 119,90",23/02/2022,11.0,Brasil,ativo
+765,42,M,Centro,Anual,"R$ 89,90",18/01/2022,9.0,Brasil,ativo
+766,50,M,Zona Sul,Mensal,"R$ 119,90",28/12/2022,14.0,Brasil,ativo
+767,40,F,Zona Norte,Trimestral,"R$ 104,90",24/08/2023,6.0,Brasil,ativo
+768,41,F,ZONA SUL,Trimestral,"R$ 104,90",11/02/2024,,Brasil,ativo
+769,26,masculino,zona sul,Mensal,"R$ 119,90",23/10/2022,7.0,Brasil,ativo
+770,24,F,Centro,Anual,"R$ 89,90",06/08/2024,12.0,Brasil,ativo
+771,54,feminino,Shopping,Trimestral,"R$ 104,90",14/06/2022,6.0,Brasil,ativo
+772,28 anos,F,zona norte,Mensal,119.90,17/03/2024,9.0,Brasil,ativo
+773,42,Masculino,Shopping,Mensal,119.90,11/03/2024,9.0,Brasil,ativo
+774,33,feminino,Zona Norte,Mensal,"R$ 119,90",03/10/2023,11.0,Brasil,ativo
+775,21,feminino,Shopping,Trimestral,104.90,13/01/2024,10.0,Brasil,ativo
+776,30,F,Zona Sul,Mensal,"R$ 119,90",31/01/2022,8.0,Brasil,ativo
+777,25,masculino,Centro,Trimestral,"R$ 104,90",14/06/2022,8.0,Brasil,ativo
+778,39,Masculino,ZONA SUL,Trimestral,"R$ 104,90",23/08/2024,4.0,Brasil,ativo
+779,51,M,Centro,Anual,"89,90",11/01/2022,8.0,Brasil,ativo
+780,36,M,Zona Norte,Anual,"89,90",26/12/2022,11.0,Brasil,ativo
+781,23,F,SHOPPING,Anual,"R$ 89,90",27/12/2022,10.0,Brasil,ativo
+782,21,masculino,Centro,Mensal,"R$ 119,90",06/01/2024,11.0,Brasil,ativo
+783,40,F,Zona Sul,Trimestral,"R$ 104,90",12/06/2024,15.0,Brasil,ativo
+784,46,M,Shopping,Trimestral,"R$ 104,90",10/08/2023,6.0,Brasil,ativo
+785,27,M,Shopping,Mensal,"R$ 119,90",17/05/2022,5.0,Brasil,ativo
+786,36,Masculino,Centro,Anual,89.90,03/10/2023,11.0,Brasil,ativo
+787,37,M,Centro,Trimestral,104.90,06/12/2022,13.0,Brasil,ativo
+788,,feminino,CENTRO,Mensal,119.90,08/04/2024,16.0,Brasil,ativo
+789,61,masculino,Zona Norte,Anual,"R$ 89,90",02/04/2022,10.0,Brasil,ativo
+790,34,F,Shopping,Mensal,119.90,21/09/2022,9.0,Brasil,ativo
+791,38,masc,Shopping,Trimestral,"R$ 104,90",09/10/2022,21.0,Brasil,ativo
+792,29,F,Shopping,Mensal,"R$ 119,90",02/07/2023,,Brasil,ativo
+793,24,feminino,Zona Sul,Anual,89.90,23/03/2024,,Brasil,ativo
+794,43,M,Zona Sul,Mensal,119.90,06/01/2023,,Brasil,ativo
+795,36,M,Zona Sul,Mensal,"R$ 119,90",30/11/2022,17.0,Brasil,ativo
+796,40,fem,Zona Sul,Mensal,"R$ 119,90",11/07/2023,19.0,Brasil,ativo
+797,48,Feminino,Zona Sul,Trimestral,"R$ 104,90",28/11/2023,10.0,Brasil,ativo
+798,,Masculino,Zona Norte,Mensal,119.90,17/05/2022,10.0,Brasil,ativo
+799,29,M,Shopping,Mensal,119.90,12/03/2022,,Brasil,ativo
+800,16,F,Zona Norte,Trimestral,"R$ 104,90",05/05/2022,10.0,Brasil,ativo
+801,39,fem,Centro,Mensal,"R$ 119,90",15/08/2022,8.0,Brasil,ativo
+802,34,F,Centro ,Anual,89.90,08/12/2022,13.0,Brasil,ativo
+803,38,M,SHOPPING,Trimestral,"R$ 104,90",28/11/2023,15.0,Brasil,ativo
+804,25,F,Centro,Trimestral,104.90,19/08/2022,19.0,Brasil,ativo
+805,49,Feminino,zona norte,Trimestral,104.90,14/10/2023,7.0,Brasil,ativo
+806,24,F,Shopping,Mensal,"R$ 119,90",11/06/2023,6.0,Brasil,ativo
+807,38,M,Zona Sul,Mensal,"R$ 119,90",24/03/2024,12.0,Brasil,ativo
+808,50,,Zona Norte ,Anual,89.90,26/04/2022,8.0,Brasil,ativo
+809,43,Masculino,Shopping,Mensal,"R$ 119,90",28/10/2022,2.0,Brasil,ativo
+810,46,M,ZONA SUL,Mensal,119.90,12/01/2024,7.0,Brasil,ativo
+811,24,feminino,Zona Norte,Mensal,"R$ 119,90",16/05/2024,0.0,Brasil,ativo
+812,41,feminino,centro,Mensal,"R$ 119,90",03/12/2022,8.0,Brasil,ativo
+813,42,M,zona sul,Anual,"R$ 89,90",29/04/2024,13.0,Brasil,ativo
+814,55,,ZONA NORTE,Mensal,"R$ 119,90",30/06/2023,9.0,Brasil,ativo
+815,25,F,SHOPPING,Trimestral,"R$ 104,90",18/02/2024,,Brasil,ativo
+816,55,feminino,Zona Sul,Mensal,"R$ 119,90",29/06/2024,9.0,Brasil,ativo
+817,26,feminino,Shopping,Anual,"89,90",11/02/2023,13.0,Brasil,ativo
+818,37,M,Zona Norte,Mensal,"119,90",31/07/2024,9.0,Brasil,ativo
+819,,M,Zona Norte,Anual,89.90,24/12/2022,,Brasil,ativo
+820,35,F,Zona Sul,Mensal,"119,90",03/03/2024,19.0,Brasil,ativo
+821,16,masc,Centro,Trimestral,104.90,06/05/2022,4.0,Brasil,ativo
+822,39,F,Centro,Mensal,119.90,17/12/2022,13.0,Brasil,ativo
+823,43,M,shopping,Anual,"89,90",18/07/2024,14.0,Brasil,ativo
+824,48,Feminino,CENTRO,Trimestral,"R$ 104,90",05/12/2022,,Brasil,ativo
+825,44,M,Centro,Mensal,"R$ 119,90",03/10/2023,11.0,Brasil,ativo
+826,54,F,Zona Sul,Mensal,119.90,21/05/2024,17.0,Brasil,ativo
+827,33,F,Zona Norte,Mensal,"R$ 119,90",22/01/2022,14.0,Brasil,ativo
+828,37,masculino,Shopping,Mensal,"R$ 119,90",21/02/2024,14.0,Brasil,ativo
+829,26,M,Centro,Mensal,"R$ 119,90",31/12/2023,8.0,Brasil,ativo
+830,49,masc,zona norte,Anual,"R$ 89,90",16/10/2022,16.0,Brasil,ativo
+831,45,masc,ZONA NORTE,Mensal,"119,90",20/11/2023,10.0,Brasil,ativo
+832,34,F,ZONA SUL,Anual,"89,90",16/10/2023,,Brasil,ativo
+833,30,Masculino,shopping,Trimestral,"R$ 104,90",20/06/2024,13.0,Brasil,ativo
+834,21,Feminino,Centro,Anual,"89,90",10/06/2024,8.0,Brasil,ativo
+835,,F,Centro,Trimestral,104.90,22/10/2023,,Brasil,ativo
+836,47,Feminino,zona norte,Anual,89.90,02/02/2024,11.0,Brasil,ativo
+837,16,Feminino,Centro,Anual,"R$ 89,90",03/04/2024,19.0,Brasil,ativo
+838,26,F,Shopping,Mensal,"119,90",19/09/2022,10.0,Brasil,ativo
+839,34,M,zona sul,Trimestral,"R$ 104,90",02/11/2022,4.0,Brasil,ativo
+840,46,,Zona Norte,Trimestral,104.90,13/08/2024,3.0,Brasil,ativo
+841,36,F,Centro,Mensal,"R$ 119,90",03/06/2022,17.0,Brasil,ativo
+842,26,masc,Zona Sul,Trimestral,"R$ 104,90",01/02/2022,,Brasil,ativo
+843,27,F,Zona Norte,Mensal,119.90,03/05/2022,5.0,Brasil,ativo
+844,23,M,ZONA NORTE,Mensal,"119,90",08/10/2022,7.0,Brasil,ativo
+845,27,masculino,Zona Norte,Mensal,"119,90",22/06/2024,3.0,Brasil,ativo
+846,35,Feminino,Zona Norte,Trimestral,104.90,21/08/2022,7.0,Brasil,ativo
+847,28,M,Zona Sul,Mensal,"119,90",03/03/2024,19.0,Brasil,ativo
+848,32,M,Zona Sul,Trimestral,"R$ 104,90",29/04/2022,10.0,Brasil,ativo
+849,36,feminino,Zona Norte,Trimestral,"R$ 104,90",23/08/2023,12.0,Brasil,ativo
+850,38,F,CENTRO,Anual,"R$ 89,90",20/06/2022,6.0,Brasil,ativo
+851,39,F,Centro,Mensal,"R$ 119,90",22/05/2023,10.0,Brasil,ativo
+852,18,Feminino,Shopping,Mensal,119.90,11/08/2022,9.0,Brasil,ativo
+853,35,M,Centro,Mensal,"119,90",15/06/2022,,Brasil,ativo
+854,33,F,Zona Norte,Mensal,"119,90",06/04/2024,11.0,Brasil,ativo
+855,16,,Centro,Mensal,"R$ 119,90",15/09/2024,4.0,Brasil,ativo
+856,46,masculino,Shopping,Mensal,119.90,18/12/2023,5.0,Brasil,ativo
+857,39,masc,Zona Sul,Mensal,119.90,17/01/2023,10.0,Brasil,ativo
+858,28,feminino,Zona Norte,Trimestral,"R$ 104,90",24/12/2023,14.0,Brasil,ativo
+859,62,M,Zona Norte,Mensal,119.90,14/12/2023,14.0,Brasil,ativo
+860,,F,Centro,Trimestral,"104,90",27/03/2023,15.0,Brasil,ativo
+861,,F,Centro ,Anual,"89,90",18/03/2022,10.0,Brasil,ativo
+862,43,feminino,zona sul,Mensal,119.90,13/10/2023,5.0,Brasil,ativo
+863,45,Feminino,Shopping,Trimestral,"R$ 104,90",20/11/2023,16.0,Brasil,ativo
+864,21,masculino,Centro,Trimestral,"R$ 104,90",02/08/2023,,Brasil,ativo
+865,45,Masculino,Zona Sul,Anual,"89,90",20/12/2023,6.0,Brasil,ativo
+866,40,Feminino,Centro,Mensal,"R$ 119,90",07/10/2023,14.0,Brasil,ativo
+867,46,F,Zona Norte,Mensal,119.90,04/03/2024,12.0,Brasil,ativo
+868,47,M,Centro,Anual,"R$ 89,90",29/03/2022,,Brasil,ativo
+869,25,M,Zona Norte,Mensal,"R$ 119,90",26/09/2023,10.0,Brasil,ativo
+870,55,fem,Zona Sul,Mensal,119.90,23/08/2024,9.0,Brasil,ativo
+871,31,F,Zona Sul,Mensal,"R$ 119,90",19/11/2023,10.0,Brasil,ativo
+872,34,F,Shopping,Mensal,"R$ 119,90",07/05/2022,6.0,Brasil,ativo
+873,20,M,Zona Sul,Mensal,119.90,24/06/2023,5.0,Brasil,ativo
+874,20,M,Shopping ,Mensal,"R$ 119,90",14/05/2024,11.0,Brasil,ativo
+875,37,F,Shopping,Mensal,"R$ 119,90",11/06/2024,8.0,Brasil,ativo
+876,18,masculino,Centro,Anual,"89,90",04/01/2023,16.0,Brasil,ativo
+877,25,M,Zona Norte,Mensal,"119,90",09/08/2024,7.0,Brasil,ativo
+878,37,M,Zona Sul,Mensal,"R$ 119,90",05/01/2022,,Brasil,ativo
+879,48,F,Zona Sul,Trimestral,"104,90",27/05/2023,7.0,Brasil,ativo
+880,26,M,zona sul,Mensal,"119,90",01/06/2022,,Brasil,ativo
+881,49,F,Zona Norte,Mensal,"119,90",06/09/2023,12.0,Brasil,ativo
+882,33,M,Zona Sul,Mensal,"119,90",23/05/2022,8.0,Brasil,ativo
+883,33,M,Zona Norte,Mensal,119.90,25/06/2022,15.0,Brasil,ativo
+884,33,masculino,Centro,Mensal,119.90,27/09/2022,5.0,Brasil,ativo
+885,55,Feminino,Zona Norte,Anual,89.90,26/10/2023,14.0,Brasil,ativo
+886,53,Masculino,Zona Norte,Trimestral,"104,90",10/09/2024,10.0,Brasil,ativo
+887,41,F,Zona Sul,Mensal,119.90,09/10/2023,7.0,Brasil,ativo
+888,35,Feminino,Shopping ,Mensal,"R$ 119,90",26/07/2024,13.0,Brasil,ativo
+889,,F,zona sul,Mensal,"R$ 119,90",04/05/2023,10.0,Brasil,ativo
+890,18,feminino,Zona Norte,Trimestral,"104,90",17/08/2022,13.0,Brasil,ativo
+891,32,fem,Zona Sul ,Anual,"89,90",23/02/2023,16.0,Brasil,ativo
+892,52,M,Zona Sul,Mensal,"R$ 119,90",28/05/2023,14.0,Brasil,ativo
+893,58,M,Shopping,Anual,89.90,30/09/2022,13.0,Brasil,ativo
+894,25,M,Shopping,Mensal,"R$ 119,90",02/07/2024,14.0,Brasil,ativo
+895,48,masculino,Zona Sul,Anual,"R$ 89,90",05/03/2023,,Brasil,ativo
+896,22,M,Centro,Anual,"R$ 89,90",01/08/2022,10.0,Brasil,ativo
+897,38,M,Centro,Mensal,"119,90",15/04/2024,5.0,Brasil,ativo
+898,,M,Zona Sul,Mensal,"R$ 119,90",08/12/2022,,Brasil,ativo
+899,24,M,Centro,Trimestral,"R$ 104,90",25/07/2024,9.0,Brasil,ativo
+900,22,M,Centro,Trimestral,"R$ 104,90",30/12/2023,11.0,Brasil,ativo

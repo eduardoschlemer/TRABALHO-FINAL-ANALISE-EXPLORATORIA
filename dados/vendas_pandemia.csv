@@ -1,0 +1,481 @@
+mes_referencia,ano,mes,canal,categoria,pedidos,faturamento
+2018-01-01,2018,1,Loja física,Vestuário,671,92682.08
+2018-02-01,2018,2,Loja física,Vestuário,695,98478.2
+2018-03-01,2018,3,Loja física,Vestuário,804,119225.26
+2018-04-01,2018,4,Loja física,Vestuário,795,109546.7
+2018-05-01,2018,5,Loja física,Vestuário,856,123709.93
+2018-06-01,2018,6,Loja física,Vestuário,798,118178.49
+2018-07-01,2018,7,Loja física,Vestuário,813,119845.26
+2018-08-01,2018,8,Loja física,Vestuário,906,128209.93
+2018-09-01,2018,9,Loja física,Vestuário,744,110406.25
+2018-10-01,2018,10,Loja física,Vestuário,870,127068.38
+2018-11-01,2018,11,Loja física,Vestuário,1066,162248.03
+2018-12-01,2018,12,Loja física,Vestuário,1187,175164.59
+2019-01-01,2019,1,Loja física,Vestuário,790,115229.18
+2019-02-01,2019,2,Loja física,Vestuário,756,112394.63
+2019-03-01,2019,3,Loja física,Vestuário,900,128350.93
+2019-04-01,2019,4,Loja física,Vestuário,856,132178.86
+2019-05-01,2019,5,Loja física,Vestuário,984,143648.75
+2019-06-01,2019,6,Loja física,Vestuário,890,134455.74
+2019-07-01,2019,7,Loja física,Vestuário,893,142557.07
+2019-08-01,2019,8,Loja física,Vestuário,832,124383.11
+2019-09-01,2019,9,Loja física,Vestuário,876,126553.89
+2019-10-01,2019,10,Loja física,Vestuário,832,127888.19
+2019-11-01,2019,11,Loja física,Vestuário,1136,177427.34
+2019-12-01,2019,12,Loja física,Vestuário,1283,200484.51
+2020-01-01,2020,1,Loja física,Vestuário,780,123885.45
+2020-02-01,2020,2,Loja física,Vestuário,746,112111.45
+2020-03-01,2020,3,Loja física,Vestuário,246,36914.06
+2020-04-01,2020,4,Loja física,Vestuário,248,40192.14
+2020-05-01,2020,5,Loja física,Vestuário,410,65640.26
+2020-06-01,2020,6,Loja física,Vestuário,424,67251.62
+2020-07-01,2020,7,Loja física,Vestuário,378,62069.51
+2020-08-01,2020,8,Loja física,Vestuário,572,95512.8
+2020-09-01,2020,9,Loja física,Vestuário,521,85452.4
+2020-10-01,2020,10,Loja física,Vestuário,556,93332.86
+2020-11-01,2020,11,Loja física,Vestuário,688,109154.79
+2020-12-01,2020,12,Loja física,Vestuário,823,128503.23
+2021-01-01,2021,1,Loja física,Vestuário,461,75743.79
+2021-02-01,2021,2,Loja física,Vestuário,551,87461.24
+2021-03-01,2021,3,Loja física,Vestuário,569,93545.49
+2021-04-01,2021,4,Loja física,Vestuário,740,125190.92
+2021-05-01,2021,5,Loja física,Vestuário,853,141973.94
+2021-06-01,2021,6,Loja física,Vestuário,817,132646.63
+2021-07-01,2021,7,Loja física,Vestuário,773,136252.47
+2021-08-01,2021,8,Loja física,Vestuário,814,142862.07
+2021-09-01,2021,9,Loja física,Vestuário,866,149493.94
+2021-10-01,2021,10,Loja física,Vestuário,790,142932.83
+2021-11-01,2021,11,Loja física,Vestuário,1023,173114.34
+2021-12-01,2021,12,Loja física,Vestuário,1213,215271.47
+2022-01-01,2022,1,Loja física,Vestuário,790,135551.37
+2022-02-01,2022,2,Loja física,Vestuário,832,141806.21
+2022-03-01,2022,3,Loja física,Vestuário,928,161206.15
+2022-04-01,2022,4,Loja física,Vestuário,887,159117.0
+2022-05-01,2022,5,Loja física,Vestuário,1011,175563.48
+2022-06-01,2022,6,Loja física,Vestuário,905,160902.32
+2022-07-01,2022,7,Loja física,Vestuário,959,177866.67
+2022-08-01,2022,8,Loja física,Vestuário,915,166738.98
+2022-09-01,2022,9,Loja física,Vestuário,968,168005.22
+2022-10-01,2022,10,Loja física,Vestuário,934,160836.25
+2022-11-01,2022,11,Loja física,Vestuário,1172,216232.51
+2022-12-01,2022,12,Loja física,Vestuário,1378,256893.05
+2018-01-01,2018,1,Loja física,Eletrônicos,547,364891.99
+2018-02-01,2018,2,Loja física,Eletrônicos,565,409535.0
+2018-03-01,2018,3,Loja física,Eletrônicos,615,457217.45
+2018-04-01,2018,4,Loja física,Eletrônicos,646,451420.55
+2018-05-01,2018,5,Loja física,Eletrônicos,680,500251.06
+2018-06-01,2018,6,Loja física,Eletrônicos,572,411253.78
+2018-07-01,2018,7,Loja física,Eletrônicos,694,495782.54
+2018-08-01,2018,8,Loja física,Eletrônicos,665,503991.53
+2018-09-01,2018,9,Loja física,Eletrônicos,629,463001.04
+2018-10-01,2018,10,Loja física,Eletrônicos,642,463466.6
+2018-11-01,2018,11,Loja física,Eletrônicos,865,613318.31
+2018-12-01,2018,12,Loja física,Eletrônicos,979,690628.15
+2019-01-01,2019,1,Loja física,Eletrônicos,568,423163.09
+2019-02-01,2019,2,Loja física,Eletrônicos,606,441200.81
+2019-03-01,2019,3,Loja física,Eletrônicos,672,499768.48
+2019-04-01,2019,4,Loja física,Eletrônicos,670,487964.98
+2019-05-01,2019,5,Loja física,Eletrônicos,792,595166.22
+2019-06-01,2019,6,Loja física,Eletrônicos,661,542121.47
+2019-07-01,2019,7,Loja física,Eletrônicos,706,524536.42
+2019-08-01,2019,8,Loja física,Eletrônicos,695,519694.58
+2019-09-01,2019,9,Loja física,Eletrônicos,725,572469.75
+2019-10-01,2019,10,Loja física,Eletrônicos,652,480861.05
+2019-11-01,2019,11,Loja física,Eletrônicos,874,651879.28
+2019-12-01,2019,12,Loja física,Eletrônicos,1010,775918.84
+2020-01-01,2020,1,Loja física,Eletrônicos,631,509312.67
+2020-02-01,2020,2,Loja física,Eletrônicos,646,486964.4
+2020-03-01,2020,3,Loja física,Eletrônicos,238,182492.76
+2020-04-01,2020,4,Loja física,Eletrônicos,249,196107.69
+2020-05-01,2020,5,Loja física,Eletrônicos,482,389220.76
+2020-06-01,2020,6,Loja física,Eletrônicos,460,356254.02
+2020-07-01,2020,7,Loja física,Eletrônicos,470,375084.73
+2020-08-01,2020,8,Loja física,Eletrônicos,629,510553.08
+2020-09-01,2020,9,Loja física,Eletrônicos,617,508366.62
+2020-10-01,2020,10,Loja física,Eletrônicos,612,528330.56
+2020-11-01,2020,11,Loja física,Eletrônicos,811,677515.21
+2020-12-01,2020,12,Loja física,Eletrônicos,892,731705.08
+2021-01-01,2021,1,Loja física,Eletrônicos,419,333182.33
+2021-02-01,2021,2,Loja física,Eletrônicos,478,410794.75
+2021-03-01,2021,3,Loja física,Eletrônicos,537,450312.35
+2021-04-01,2021,4,Loja física,Eletrônicos,702,541494.59
+2021-05-01,2021,5,Loja física,Eletrônicos,834,664038.01
+2021-06-01,2021,6,Loja física,Eletrônicos,710,589968.76
+2021-07-01,2021,7,Loja física,Eletrônicos,584,463656.28
+2021-08-01,2021,8,Loja física,Eletrônicos,638,517516.61
+2021-09-01,2021,9,Loja física,Eletrônicos,632,543740.31
+2021-10-01,2021,10,Loja física,Eletrônicos,644,543074.72
+2021-11-01,2021,11,Loja física,Eletrônicos,813,652316.57
+2021-12-01,2021,12,Loja física,Eletrônicos,924,839009.37
+2022-01-01,2022,1,Loja física,Eletrônicos,632,536270.01
+2022-02-01,2022,2,Loja física,Eletrônicos,582,493625.86
+2022-03-01,2022,3,Loja física,Eletrônicos,725,605408.07
+2022-04-01,2022,4,Loja física,Eletrônicos,760,639469.99
+2022-05-01,2022,5,Loja física,Eletrônicos,766,662186.94
+2022-06-01,2022,6,Loja física,Eletrônicos,731,633330.49
+2022-07-01,2022,7,Loja física,Eletrônicos,792,660681.62
+2022-08-01,2022,8,Loja física,Eletrônicos,741,661773.13
+2022-09-01,2022,9,Loja física,Eletrônicos,692,601448.0
+2022-10-01,2022,10,Loja física,Eletrônicos,702,601016.7
+2022-11-01,2022,11,Loja física,Eletrônicos,917,846276.01
+2022-12-01,2022,12,Loja física,Eletrônicos,1044,942796.72
+2018-01-01,2018,1,Loja física,Alimentos,919,74114.28
+2018-02-01,2018,2,Loja física,Alimentos,947,80246.28
+2018-03-01,2018,3,Loja física,Alimentos,1207,103831.57
+2018-04-01,2018,4,Loja física,Alimentos,1096,95573.68
+2018-05-01,2018,5,Loja física,Alimentos,1248,108094.2
+2018-06-01,2018,6,Loja física,Alimentos,1145,91933.16
+2018-07-01,2018,7,Loja física,Alimentos,1083,91740.96
+2018-08-01,2018,8,Loja física,Alimentos,1119,98103.45
+2018-09-01,2018,9,Loja física,Alimentos,1145,100595.57
+2018-10-01,2018,10,Loja física,Alimentos,1137,99434.76
+2018-11-01,2018,11,Loja física,Alimentos,1451,128065.42
+2018-12-01,2018,12,Loja física,Alimentos,1592,146031.82
+2019-01-01,2019,1,Loja física,Alimentos,958,88589.5
+2019-02-01,2019,2,Loja física,Alimentos,1008,90053.94
+2019-03-01,2019,3,Loja física,Alimentos,1135,97599.62
+2019-04-01,2019,4,Loja física,Alimentos,1188,115211.29
+2019-05-01,2019,5,Loja física,Alimentos,1234,113581.76
+2019-06-01,2019,6,Loja física,Alimentos,1156,102352.52
+2019-07-01,2019,7,Loja física,Alimentos,1123,106366.63
+2019-08-01,2019,8,Loja física,Alimentos,1210,109849.68
+2019-09-01,2019,9,Loja física,Alimentos,1220,111697.13
+2019-10-01,2019,10,Loja física,Alimentos,1155,106085.94
+2019-11-01,2019,11,Loja física,Alimentos,1549,147869.95
+2019-12-01,2019,12,Loja física,Alimentos,1714,167096.07
+2020-01-01,2020,1,Loja física,Alimentos,1051,98649.71
+2020-02-01,2020,2,Loja física,Alimentos,976,89961.97
+2020-03-01,2020,3,Loja física,Alimentos,1042,100649.9
+2020-04-01,2020,4,Loja física,Alimentos,1099,107906.57
+2020-05-01,2020,5,Loja física,Alimentos,1145,108205.04
+2020-06-01,2020,6,Loja física,Alimentos,1210,120189.45
+2020-07-01,2020,7,Loja física,Alimentos,1190,117054.28
+2020-08-01,2020,8,Loja física,Alimentos,1111,108068.85
+2020-09-01,2020,9,Loja física,Alimentos,1140,120773.99
+2020-10-01,2020,10,Loja física,Alimentos,1115,109840.0
+2020-11-01,2020,11,Loja física,Alimentos,1413,134765.31
+2020-12-01,2020,12,Loja física,Alimentos,1616,159487.52
+2021-01-01,2021,1,Loja física,Alimentos,975,99829.79
+2021-02-01,2021,2,Loja física,Alimentos,1049,105640.58
+2021-03-01,2021,3,Loja física,Alimentos,1169,118709.71
+2021-04-01,2021,4,Loja física,Alimentos,1112,106415.63
+2021-05-01,2021,5,Loja física,Alimentos,1259,126781.18
+2021-06-01,2021,6,Loja física,Alimentos,1146,118604.13
+2021-07-01,2021,7,Loja física,Alimentos,1138,118669.32
+2021-08-01,2021,8,Loja física,Alimentos,1180,125028.28
+2021-09-01,2021,9,Loja física,Alimentos,1171,116029.81
+2021-10-01,2021,10,Loja física,Alimentos,1139,122168.66
+2021-11-01,2021,11,Loja física,Alimentos,1477,159159.05
+2021-12-01,2021,12,Loja física,Alimentos,1792,193308.98
+2022-01-01,2022,1,Loja física,Alimentos,1036,111545.3
+2022-02-01,2022,2,Loja física,Alimentos,1039,115335.97
+2022-03-01,2022,3,Loja física,Alimentos,1236,126567.18
+2022-04-01,2022,4,Loja física,Alimentos,1271,135567.59
+2022-05-01,2022,5,Loja física,Alimentos,1386,147783.27
+2022-06-01,2022,6,Loja física,Alimentos,1235,135146.73
+2022-07-01,2022,7,Loja física,Alimentos,1318,137277.17
+2022-08-01,2022,8,Loja física,Alimentos,1229,132823.79
+2022-09-01,2022,9,Loja física,Alimentos,1263,131144.87
+2022-10-01,2022,10,Loja física,Alimentos,1243,137136.24
+2022-11-01,2022,11,Loja física,Alimentos,1560,173297.98
+2022-12-01,2022,12,Loja física,Alimentos,1797,202515.86
+2018-01-01,2018,1,Loja física,Casa,450,102502.72
+2018-02-01,2018,2,Loja física,Casa,461,108392.87
+2018-03-01,2018,3,Loja física,Casa,491,114861.93
+2018-04-01,2018,4,Loja física,Casa,493,119090.06
+2018-05-01,2018,5,Loja física,Casa,590,134059.37
+2018-06-01,2018,6,Loja física,Casa,546,129893.98
+2018-07-01,2018,7,Loja física,Casa,530,126304.35
+2018-08-01,2018,8,Loja física,Casa,534,120876.51
+2018-09-01,2018,9,Loja física,Casa,568,130148.01
+2018-10-01,2018,10,Loja física,Casa,516,128518.52
+2018-11-01,2018,11,Loja física,Casa,640,152539.91
+2018-12-01,2018,12,Loja física,Casa,775,183903.28
+2019-01-01,2019,1,Loja física,Casa,455,111479.26
+2019-02-01,2019,2,Loja física,Casa,472,111669.95
+2019-03-01,2019,3,Loja física,Casa,571,138545.11
+2019-04-01,2019,4,Loja física,Casa,558,134969.88
+2019-05-01,2019,5,Loja física,Casa,612,155193.36
+2019-06-01,2019,6,Loja física,Casa,565,137625.0
+2019-07-01,2019,7,Loja física,Casa,573,143272.59
+2019-08-01,2019,8,Loja física,Casa,568,144814.08
+2019-09-01,2019,9,Loja física,Casa,570,143595.09
+2019-10-01,2019,10,Loja física,Casa,536,139854.65
+2019-11-01,2019,11,Loja física,Casa,729,176477.42
+2019-12-01,2019,12,Loja física,Casa,821,211624.58
+2020-01-01,2020,1,Loja física,Casa,469,123567.48
+2020-02-01,2020,2,Loja física,Casa,494,123868.66
+2020-03-01,2020,3,Loja física,Casa,190,48313.21
+2020-04-01,2020,4,Loja física,Casa,201,53746.51
+2020-05-01,2020,5,Loja física,Casa,397,95187.22
+2020-06-01,2020,6,Loja física,Casa,394,102467.22
+2020-07-01,2020,7,Loja física,Casa,363,97428.22
+2020-08-01,2020,8,Loja física,Casa,480,133874.44
+2020-09-01,2020,9,Loja física,Casa,476,126167.18
+2020-10-01,2020,10,Loja física,Casa,522,140391.86
+2020-11-01,2020,11,Loja física,Casa,631,173052.03
+2020-12-01,2020,12,Loja física,Casa,759,214616.99
+2021-01-01,2021,1,Loja física,Casa,363,94208.22
+2021-02-01,2021,2,Loja física,Casa,375,103286.59
+2021-03-01,2021,3,Loja física,Casa,406,113254.43
+2021-04-01,2021,4,Loja física,Casa,610,166550.59
+2021-05-01,2021,5,Loja física,Casa,661,192765.15
+2021-06-01,2021,6,Loja física,Casa,615,165252.44
+2021-07-01,2021,7,Loja física,Casa,538,150006.91
+2021-08-01,2021,8,Loja física,Casa,523,142145.08
+2021-09-01,2021,9,Loja física,Casa,497,136418.59
+2021-10-01,2021,10,Loja física,Casa,519,146936.02
+2021-11-01,2021,11,Loja física,Casa,667,184878.19
+2021-12-01,2021,12,Loja física,Casa,787,214142.25
+2022-01-01,2022,1,Loja física,Casa,499,142900.41
+2022-02-01,2022,2,Loja física,Casa,506,146825.34
+2022-03-01,2022,3,Loja física,Casa,609,173893.37
+2022-04-01,2022,4,Loja física,Casa,579,163259.05
+2022-05-01,2022,5,Loja física,Casa,656,193608.82
+2022-06-01,2022,6,Loja física,Casa,600,173819.92
+2022-07-01,2022,7,Loja física,Casa,623,182018.37
+2022-08-01,2022,8,Loja física,Casa,573,156048.32
+2022-09-01,2022,9,Loja física,Casa,603,178206.63
+2022-10-01,2022,10,Loja física,Casa,595,174396.66
+2022-11-01,2022,11,Loja física,Casa,749,219289.51
+2022-12-01,2022,12,Loja física,Casa,899,270908.15
+2018-01-01,2018,1,E-commerce,Vestuário,162,24673.0
+2018-02-01,2018,2,E-commerce,Vestuário,186,26325.82
+2018-03-01,2018,3,E-commerce,Vestuário,211,31364.35
+2018-04-01,2018,4,E-commerce,Vestuário,211,32188.51
+2018-05-01,2018,5,E-commerce,Vestuário,231,36324.25
+2018-06-01,2018,6,E-commerce,Vestuário,206,30164.18
+2018-07-01,2018,7,E-commerce,Vestuário,193,30867.19
+2018-08-01,2018,8,E-commerce,Vestuário,220,35927.07
+2018-09-01,2018,9,E-commerce,Vestuário,218,34407.48
+2018-10-01,2018,10,E-commerce,Vestuário,218,35946.69
+2018-11-01,2018,11,E-commerce,Vestuário,291,46534.54
+2018-12-01,2018,12,E-commerce,Vestuário,316,49427.23
+2019-01-01,2019,1,E-commerce,Vestuário,171,28704.8
+2019-02-01,2019,2,E-commerce,Vestuário,191,32395.41
+2019-03-01,2019,3,E-commerce,Vestuário,234,39544.26
+2019-04-01,2019,4,E-commerce,Vestuário,228,37438.01
+2019-05-01,2019,5,E-commerce,Vestuário,239,39344.27
+2019-06-01,2019,6,E-commerce,Vestuário,226,37274.92
+2019-07-01,2019,7,E-commerce,Vestuário,226,38048.8
+2019-08-01,2019,8,E-commerce,Vestuário,210,34673.38
+2019-09-01,2019,9,E-commerce,Vestuário,216,36239.31
+2019-10-01,2019,10,E-commerce,Vestuário,232,39658.31
+2019-11-01,2019,11,E-commerce,Vestuário,272,46799.84
+2019-12-01,2019,12,E-commerce,Vestuário,329,55828.36
+2020-01-01,2020,1,E-commerce,Vestuário,190,33215.98
+2020-02-01,2020,2,E-commerce,Vestuário,198,33574.27
+2020-03-01,2020,3,E-commerce,Vestuário,371,62296.64
+2020-04-01,2020,4,E-commerce,Vestuário,393,69520.33
+2020-05-01,2020,5,E-commerce,Vestuário,419,71761.69
+2020-06-01,2020,6,E-commerce,Vestuário,384,68094.28
+2020-07-01,2020,7,E-commerce,Vestuário,415,74705.4
+2020-08-01,2020,8,E-commerce,Vestuário,333,57301.79
+2020-09-01,2020,9,E-commerce,Vestuário,343,60221.87
+2020-10-01,2020,10,E-commerce,Vestuário,348,59928.5
+2020-11-01,2020,11,E-commerce,Vestuário,430,74207.55
+2020-12-01,2020,12,E-commerce,Vestuário,502,90767.69
+2021-01-01,2021,1,E-commerce,Vestuário,361,61324.41
+2021-02-01,2021,2,E-commerce,Vestuário,381,67759.38
+2021-03-01,2021,3,E-commerce,Vestuário,437,80543.1
+2021-04-01,2021,4,E-commerce,Vestuário,430,80733.44
+2021-05-01,2021,5,E-commerce,Vestuário,484,87056.42
+2021-06-01,2021,6,E-commerce,Vestuário,429,77998.28
+2021-07-01,2021,7,E-commerce,Vestuário,438,82143.63
+2021-08-01,2021,8,E-commerce,Vestuário,444,83869.55
+2021-09-01,2021,9,E-commerce,Vestuário,443,82276.49
+2021-10-01,2021,10,E-commerce,Vestuário,439,77912.14
+2021-11-01,2021,11,E-commerce,Vestuário,571,106762.95
+2021-12-01,2021,12,E-commerce,Vestuário,639,117285.87
+2022-01-01,2022,1,E-commerce,Vestuário,344,63806.6
+2022-02-01,2022,2,E-commerce,Vestuário,357,67491.85
+2022-03-01,2022,3,E-commerce,Vestuário,411,78090.6
+2022-04-01,2022,4,E-commerce,Vestuário,417,78061.6
+2022-05-01,2022,5,E-commerce,Vestuário,447,85295.77
+2022-06-01,2022,6,E-commerce,Vestuário,406,78253.48
+2022-07-01,2022,7,E-commerce,Vestuário,397,78099.97
+2022-08-01,2022,8,E-commerce,Vestuário,402,76893.41
+2022-09-01,2022,9,E-commerce,Vestuário,410,81936.33
+2022-10-01,2022,10,E-commerce,Vestuário,416,84632.76
+2022-11-01,2022,11,E-commerce,Vestuário,529,100333.16
+2022-12-01,2022,12,E-commerce,Vestuário,597,113436.55
+2018-01-01,2018,1,E-commerce,Eletrônicos,332,237696.92
+2018-02-01,2018,2,E-commerce,Eletrônicos,312,222102.83
+2018-03-01,2018,3,E-commerce,Eletrônicos,383,286106.45
+2018-04-01,2018,4,E-commerce,Eletrônicos,394,295924.42
+2018-05-01,2018,5,E-commerce,Eletrônicos,408,314364.66
+2018-06-01,2018,6,E-commerce,Eletrônicos,387,290543.67
+2018-07-01,2018,7,E-commerce,Eletrônicos,408,301668.89
+2018-08-01,2018,8,E-commerce,Eletrônicos,395,308385.94
+2018-09-01,2018,9,E-commerce,Eletrônicos,403,315585.9
+2018-10-01,2018,10,E-commerce,Eletrônicos,389,317047.38
+2018-11-01,2018,11,E-commerce,Eletrônicos,484,374680.87
+2018-12-01,2018,12,E-commerce,Eletrônicos,576,453206.73
+2019-01-01,2019,1,E-commerce,Eletrônicos,342,274371.83
+2019-02-01,2019,2,E-commerce,Eletrônicos,364,290529.42
+2019-03-01,2019,3,E-commerce,Eletrônicos,405,313845.28
+2019-04-01,2019,4,E-commerce,Eletrônicos,411,334069.87
+2019-05-01,2019,5,E-commerce,Eletrônicos,446,356503.1
+2019-06-01,2019,6,E-commerce,Eletrônicos,376,326430.39
+2019-07-01,2019,7,E-commerce,Eletrônicos,411,339594.82
+2019-08-01,2019,8,E-commerce,Eletrônicos,372,314967.6
+2019-09-01,2019,9,E-commerce,Eletrônicos,401,327156.59
+2019-10-01,2019,10,E-commerce,Eletrônicos,399,335278.76
+2019-11-01,2019,11,E-commerce,Eletrônicos,506,434973.48
+2019-12-01,2019,12,E-commerce,Eletrônicos,613,526797.03
+2020-01-01,2020,1,E-commerce,Eletrônicos,324,275567.22
+2020-02-01,2020,2,E-commerce,Eletrônicos,353,274298.35
+2020-03-01,2020,3,E-commerce,Eletrônicos,1023,873956.15
+2020-04-01,2020,4,E-commerce,Eletrônicos,1014,853938.84
+2020-05-01,2020,5,E-commerce,Eletrônicos,1087,945538.66
+2020-06-01,2020,6,E-commerce,Eletrônicos,1035,897696.99
+2020-07-01,2020,7,E-commerce,Eletrônicos,1028,878957.33
+2020-08-01,2020,8,E-commerce,Eletrônicos,900,747613.94
+2020-09-01,2020,9,E-commerce,Eletrônicos,877,746774.75
+2020-10-01,2020,10,E-commerce,Eletrônicos,890,775579.42
+2020-11-01,2020,11,E-commerce,Eletrônicos,1089,954113.17
+2020-12-01,2020,12,E-commerce,Eletrônicos,1297,1116755.37
+2021-01-01,2021,1,E-commerce,Eletrônicos,763,668862.0
+2021-02-01,2021,2,E-commerce,Eletrônicos,780,662059.07
+2021-03-01,2021,3,E-commerce,Eletrônicos,930,848977.95
+2021-04-01,2021,4,E-commerce,Eletrônicos,927,787879.48
+2021-05-01,2021,5,E-commerce,Eletrônicos,999,870272.97
+2021-06-01,2021,6,E-commerce,Eletrônicos,923,839585.52
+2021-07-01,2021,7,E-commerce,Eletrônicos,804,739812.77
+2021-08-01,2021,8,E-commerce,Eletrônicos,808,698957.41
+2021-09-01,2021,9,E-commerce,Eletrônicos,812,751055.31
+2021-10-01,2021,10,E-commerce,Eletrônicos,802,711663.93
+2021-11-01,2021,11,E-commerce,Eletrônicos,1014,895960.02
+2021-12-01,2021,12,E-commerce,Eletrônicos,1177,1099164.39
+2022-01-01,2022,1,E-commerce,Eletrônicos,626,597717.41
+2022-02-01,2022,2,E-commerce,Eletrônicos,634,599199.35
+2022-03-01,2022,3,E-commerce,Eletrônicos,718,697949.01
+2022-04-01,2022,4,E-commerce,Eletrônicos,741,673114.88
+2022-05-01,2022,5,E-commerce,Eletrônicos,777,701860.43
+2022-06-01,2022,6,E-commerce,Eletrônicos,727,691645.54
+2022-07-01,2022,7,E-commerce,Eletrônicos,741,714014.46
+2022-08-01,2022,8,E-commerce,Eletrônicos,760,761759.21
+2022-09-01,2022,9,E-commerce,Eletrônicos,750,729838.34
+2022-10-01,2022,10,E-commerce,Eletrônicos,729,645164.4
+2022-11-01,2022,11,E-commerce,Eletrônicos,942,877002.31
+2022-12-01,2022,12,E-commerce,Eletrônicos,1083,1058158.45
+2018-01-01,2018,1,E-commerce,Alimentos,79,6893.31
+2018-02-01,2018,2,E-commerce,Alimentos,85,7848.55
+2018-03-01,2018,3,E-commerce,Alimentos,89,8510.83
+2018-04-01,2018,4,E-commerce,Alimentos,94,8774.46
+2018-05-01,2018,5,E-commerce,Alimentos,100,9115.91
+2018-06-01,2018,6,E-commerce,Alimentos,91,8560.26
+2018-07-01,2018,7,E-commerce,Alimentos,95,8869.36
+2018-08-01,2018,8,E-commerce,Alimentos,91,8023.67
+2018-09-01,2018,9,E-commerce,Alimentos,97,8947.75
+2018-10-01,2018,10,E-commerce,Alimentos,91,8864.29
+2018-11-01,2018,11,E-commerce,Alimentos,116,11775.48
+2018-12-01,2018,12,E-commerce,Alimentos,141,12606.25
+2019-01-01,2019,1,E-commerce,Alimentos,80,7741.74
+2019-02-01,2019,2,E-commerce,Alimentos,78,7443.02
+2019-03-01,2019,3,E-commerce,Alimentos,93,9240.0
+2019-04-01,2019,4,E-commerce,Alimentos,98,9784.06
+2019-05-01,2019,5,E-commerce,Alimentos,105,10988.37
+2019-06-01,2019,6,E-commerce,Alimentos,92,9073.89
+2019-07-01,2019,7,E-commerce,Alimentos,96,9617.31
+2019-08-01,2019,8,E-commerce,Alimentos,98,9973.88
+2019-09-01,2019,9,E-commerce,Alimentos,102,10032.96
+2019-10-01,2019,10,E-commerce,Alimentos,99,10328.29
+2019-11-01,2019,11,E-commerce,Alimentos,119,12532.74
+2019-12-01,2019,12,E-commerce,Alimentos,139,14097.28
+2020-01-01,2020,1,E-commerce,Alimentos,81,8464.54
+2020-02-01,2020,2,E-commerce,Alimentos,92,9324.98
+2020-03-01,2020,3,E-commerce,Alimentos,214,21656.57
+2020-04-01,2020,4,E-commerce,Alimentos,208,22212.62
+2020-05-01,2020,5,E-commerce,Alimentos,227,24430.4
+2020-06-01,2020,6,E-commerce,Alimentos,203,21456.52
+2020-07-01,2020,7,E-commerce,Alimentos,207,22448.25
+2020-08-01,2020,8,E-commerce,Alimentos,177,19018.78
+2020-09-01,2020,9,E-commerce,Alimentos,180,19896.19
+2020-10-01,2020,10,E-commerce,Alimentos,179,18636.16
+2020-11-01,2020,11,E-commerce,Alimentos,228,24601.83
+2020-12-01,2020,12,E-commerce,Alimentos,264,27457.07
+2021-01-01,2021,1,E-commerce,Alimentos,158,17117.26
+2021-02-01,2021,2,E-commerce,Alimentos,160,17452.81
+2021-03-01,2021,3,E-commerce,Alimentos,188,19893.53
+2021-04-01,2021,4,E-commerce,Alimentos,182,20199.33
+2021-05-01,2021,5,E-commerce,Alimentos,203,22705.05
+2021-06-01,2021,6,E-commerce,Alimentos,187,20694.54
+2021-07-01,2021,7,E-commerce,Alimentos,191,20738.46
+2021-08-01,2021,8,E-commerce,Alimentos,191,21351.81
+2021-09-01,2021,9,E-commerce,Alimentos,191,21160.61
+2021-10-01,2021,10,E-commerce,Alimentos,198,22129.26
+2021-11-01,2021,11,E-commerce,Alimentos,240,27086.0
+2021-12-01,2021,12,E-commerce,Alimentos,277,30937.79
+2022-01-01,2022,1,E-commerce,Alimentos,146,15843.22
+2022-02-01,2022,2,E-commerce,Alimentos,154,18587.63
+2022-03-01,2022,3,E-commerce,Alimentos,178,20858.73
+2022-04-01,2022,4,E-commerce,Alimentos,177,21385.92
+2022-05-01,2022,5,E-commerce,Alimentos,194,22795.73
+2022-06-01,2022,6,E-commerce,Alimentos,175,19256.86
+2022-07-01,2022,7,E-commerce,Alimentos,174,20145.7
+2022-08-01,2022,8,E-commerce,Alimentos,178,19755.36
+2022-09-01,2022,9,E-commerce,Alimentos,182,20849.81
+2022-10-01,2022,10,E-commerce,Alimentos,183,21851.28
+2022-11-01,2022,11,E-commerce,Alimentos,219,26187.67
+2022-12-01,2022,12,E-commerce,Alimentos,259,30018.03
+2018-01-01,2018,1,E-commerce,Casa,141,33896.08
+2018-02-01,2018,2,E-commerce,Casa,143,35439.46
+2018-03-01,2018,3,E-commerce,Casa,170,42099.03
+2018-04-01,2018,4,E-commerce,Casa,161,40536.2
+2018-05-01,2018,5,E-commerce,Casa,177,44896.49
+2018-06-01,2018,6,E-commerce,Casa,159,40026.45
+2018-07-01,2018,7,E-commerce,Casa,163,41340.79
+2018-08-01,2018,8,E-commerce,Casa,173,42940.63
+2018-09-01,2018,9,E-commerce,Casa,175,44405.97
+2018-10-01,2018,10,E-commerce,Casa,171,44279.66
+2018-11-01,2018,11,E-commerce,Casa,219,59078.38
+2018-12-01,2018,12,E-commerce,Casa,231,59483.43
+2019-01-01,2019,1,E-commerce,Casa,150,39787.91
+2019-02-01,2019,2,E-commerce,Casa,147,39003.68
+2019-03-01,2019,3,E-commerce,Casa,169,45236.56
+2019-04-01,2019,4,E-commerce,Casa,171,45245.9
+2019-05-01,2019,5,E-commerce,Casa,183,50016.98
+2019-06-01,2019,6,E-commerce,Casa,160,40958.28
+2019-07-01,2019,7,E-commerce,Casa,164,44088.4
+2019-08-01,2019,8,E-commerce,Casa,170,47234.86
+2019-09-01,2019,9,E-commerce,Casa,166,47144.46
+2019-10-01,2019,10,E-commerce,Casa,181,52449.79
+2019-11-01,2019,11,E-commerce,Casa,217,60771.98
+2019-12-01,2019,12,E-commerce,Casa,243,69242.11
+2020-01-01,2020,1,E-commerce,Casa,151,42356.85
+2020-02-01,2020,2,E-commerce,Casa,151,42063.87
+2020-03-01,2020,3,E-commerce,Casa,423,121679.54
+2020-04-01,2020,4,E-commerce,Casa,426,123577.79
+2020-05-01,2020,5,E-commerce,Casa,470,136074.26
+2020-06-01,2020,6,E-commerce,Casa,433,118532.93
+2020-07-01,2020,7,E-commerce,Casa,426,124828.79
+2020-08-01,2020,8,E-commerce,Casa,365,103294.6
+2020-09-01,2020,9,E-commerce,Casa,379,104105.53
+2020-10-01,2020,10,E-commerce,Casa,378,108602.43
+2020-11-01,2020,11,E-commerce,Casa,471,136219.36
+2020-12-01,2020,12,E-commerce,Casa,545,159026.24
+2021-01-01,2021,1,E-commerce,Casa,327,89006.25
+2021-02-01,2021,2,E-commerce,Casa,326,96924.34
+2021-03-01,2021,3,E-commerce,Casa,381,113792.93
+2021-04-01,2021,4,E-commerce,Casa,377,109399.14
+2021-05-01,2021,5,E-commerce,Casa,424,127344.44
+2021-06-01,2021,6,E-commerce,Casa,373,110930.64
+2021-07-01,2021,7,E-commerce,Casa,325,100124.85
+2021-08-01,2021,8,E-commerce,Casa,341,101939.87
+2021-09-01,2021,9,E-commerce,Casa,336,105170.07
+2021-10-01,2021,10,E-commerce,Casa,341,101434.65
+2021-11-01,2021,11,E-commerce,Casa,435,133892.12
+2021-12-01,2021,12,E-commerce,Casa,498,147988.96
+2022-01-01,2022,1,E-commerce,Casa,262,77333.59
+2022-02-01,2022,2,E-commerce,Casa,277,88411.77
+2022-03-01,2022,3,E-commerce,Casa,293,91850.71
+2022-04-01,2022,4,E-commerce,Casa,313,96824.02
+2022-05-01,2022,5,E-commerce,Casa,338,110130.13
+2022-06-01,2022,6,E-commerce,Casa,308,93342.41
+2022-07-01,2022,7,E-commerce,Casa,313,99092.01
+2022-08-01,2022,8,E-commerce,Casa,323,93549.13
+2022-09-01,2022,9,E-commerce,Casa,310,97253.36
+2022-10-01,2022,10,E-commerce,Casa,316,96999.24
+2022-11-01,2022,11,E-commerce,Casa,393,127909.75
+2022-12-01,2022,12,E-commerce,Casa,452,142731.51
