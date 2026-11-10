@@ -32,6 +32,7 @@ A diretoria do aplicativo de delivery solicitou um diagnóstico aprofundado das 
 ### Dicionário da base limpa (`saidas/delivery_pedidos_limpo.csv`)
 
 | Coluna                | Tipo              | Descrição                                         | % faltantes   | Observação / tratamento |
+|:---|:---|:---|:---|:---|:---|
 | `pedido_id`           | int64             | Identificador único do pedido                     | 0.00%         | Chave primária original. |
 | `data_hora`           | datetime64[us]    | Data e hora exata da realização do pedido         | 0.00%         | Convertida de texto para formato datetime. |
 | `cidade`              | object            | Cidade onde a entrega foi realizada               | 0.00%         | 13 variantes textuais padronizadas para 3 nomes de capitais. |
@@ -97,19 +98,43 @@ jupyter notebook projeto_final.ipynb
 
 ### Decisões de limpeza
 
-| Problema                          | Linhas afetadas   | Decisão                                                       | Alternativa considerada |
-| `tempo_entrega_min` = 999 ou < 0  | 33 pedidos        | Substituição por `NaN` + criação da flag `tempo_invalido`     | Excluir as linhas da base (rejeitado para não perder dados de receita) |
-| `distancia_km` > 100 km           | 7 pedidos         | Substituição por `NaN` + criação da flag `distancia_invalida` | Substituir pela média geral da base (rejeitado por enviesar o cálculo da taxa) |
-| `avaliacao` nula (`NaN`)          | 1.342 pedidos     | Preenchimento total com a **MEDIANA GERAL** (4.0)             | Deixar nulo ou usar a média (rejeitado por ser variável ordinal discreta) |
-| `plataforma` nula (`NaN`)         | 153 pedidos       | Preenchimento total com a **MODA** (Android)                  | Excluir linhas (rejeitado por se tratar de variável de texto simples) |
+| Problema                        | Linhas afetadas | Decisão                                               | Alternativa considerada                                                     |
+|:---|:---|:---|:---|:---|:---|
+| :------------------------------ | :-------------- | :---------------------------------------------------- | :-------------------------------------------------------------------------- |
+| tempo_entrega_min = 999 ou < 0  | 33 pedidos      | Substituição por NaN + criação da flag tempo_invalido  | Excluir as linhas da base (rejeitado para não perder dados de receita)      |
+| distancia_km > 100 km           | 7 pedidos       | Substituição por NaN + criação da flag distancia_invalida | Substituir pela média geral da base (rejeitado por enviesar a taxa)         |
+| avaliacao nula (NaN)            | 1.342 pedidos   | Preenchimento total com a MEDIANA GERAL (4.0)         | Deixar nulo ou usar a média (rejeitado por ser variável ordinal discreta)   |
+| plataforma nula (NaN)           | 153 pedidos     | Preenchimento total com a MODA (Android)              | Excluir linhas (rejeitado por se tratar de variável de texto simples)       |
 
-## 6. Principais achados
+## 📊 6. Principais Achados & Insights de Negócio
 
-1. **São Paulo concentra a maioria absoluta das operações, representando 50,32% do volume total de pedidos de 2024** e gerando um faturamento bruto em itens de R$ 289.275,55 (Tarefa 6.2). *Consequência:* Qualquer gargalo operacional, perda de entregadores ou crise técnica nessa praça impactará diretamente metade de toda a receita da companhia em 2025.
-2. **Em dias de chuva as entregas demoram em média 9,51 minutos a mais do que em dias secos**, saltando de 33,23 minutos para 42,36 minutos (Tarefa 6.8 e validado no teste H1). *Consequência:* O atraso é severo e exige que o aplicativo altere dinamicamente as promessas de tempo exibidas na tela do usuário nos dias chuvosos para blindar a expectativa do cliente.
-3. **Pedidos que demoram acima de 35 minutos sofrem uma queda abrupta na satisfação, reduzindo a nota média de 4,39 para 3,65** (uma perda de 0,74 pontos na reputação, conforme Tarefa 5.4 e validado em H3). *Consequência:* Esse tempo dita a fronteira entre um cliente promotor e um detrator. Como 18,32% de todas as entregas estouram esse limite, o app deteriora ativamente a fidelidade de quase um quinto de sua base por falha logística.
-4. **O segmento gastronômico determina o potencial de receita, gerando uma disparidade de R$ 78,57 no ticket médio entre as especialidades**, com a cozinha Japonesa liderando em R$ 120,36 e Doces na base inferior com R$ 41,79 (Tarefa 6.3 e validado em H4). *Consequência:* Focar apenas em volume de vendas é enganoso: a culinária Japonesa, mesmo em 4º lugar em volume, gera o mesmo faturamento que o Hambúrguer (líder em volume). A estratégia de expansão comercial para 2025 deve priorizar culinárias de alto ticket.
-5. **A estratégia promocional triplica a atração de novos usuários, registrando que 34,35% das compras feitas com cupom são de clientes novos**, contra apenas 12,81% nos pedidos orgânicos (Tarefa 6.7 e validado em H2). *Consequência:* Os cupons expandem a base, mas reduzem o ticket médio em R$ 5,60 e ativam o frete grátis em 52,66% das vezes. A diretoria deve equilibrar o custo dessas campanhas agressivas com réguas de retenção pós-uso.
+A análise aprofundada da operação de 2024 revelou cinco pontos críticos de atenção que servem como fundação para o planejamento estratégico da companhia.
+
+### 📌 1. Concentração de Mercado em São Paulo
+* **Métrica-Chave:** `50,32%` do volume total de pedidos | **Faturamento bruto:** `R$ 289.275,55`
+* **Contexto:** A praça de São Paulo concentra a maioria absoluta de toda a operação anual.
+* **💡 Recomendação Executiva:** Qualquer gargalo operacional, perda de entregadores ou instabilidade técnica nessa praça impactará diretamente metade de toda a receita da companhia. Mitigar riscos em SP deve ser prioridade máxima de infraestrutura em infra e logística.
+
+### 🌧️ 2. Impacto Climático na Logística
+* **Tempo Médio (Seco):** `33.23 min` ➔ **Tempo Médio (Chuva):** `42.36 min`
+* **Diferença:** `+9.51 minutos` de atraso em média nos dias de chuva (Validado via teste de hipótese $H_1$).
+* **💡 Recomendação Executiva:** O atraso é severo. O aplicativo precisa alterar dinamicamente a estimativa de entrega na tela do usuário em tempo de chuva para blindar a experiência do cliente e calibrar expectativas de forma transparente.
+
+### 📉 3. A Fronteira da Satisfação do Cliente (Churn & Reputação)
+* **Nota Média (≤35 min):** `4.39` ⭐ ➔ **Nota Médio (>35 min):** `3.65` ⭐ (Perda de `0.74` pontos na avaliação)
+* **Alerta:** `18,32%` de todas as entregas estouram esse limite crítico de 35 minutos (Validado via teste de hipótese $H_3$).
+* **💡 Recomendação Executiva:** Este tempo dita a fronteira entre um cliente promotor e um detrator. A empresa está deteriorando ativamente a fidelidade de quase 1/5 da base por falhas logísticas; ações de otimização de rotas devem mirar a redução desse teto.
+
+### 🍱 4. Mix de Categorias: Volume vs. Margem de Receita
+* **Maior Ticket Médio:** Japonesa (`R$ 120,36`) | **Menor Ticket Médio:** Doces (`R$ 41,79`)
+* **Disparidade máxima:** `R$ 78,57` de diferença entre especialidades gastronômicas (Validado via teste de hipótese $H_4$).
+* **💡 Recomendação Executiva:** Focar apenas em volume de vendas é enganoso. A culinária Japonesa, mesmo em 4º lugar em volume, fatura o mesmo que Hambúrguer (líder absoluto de pedidos). A estratégia de expansão B2B deve priorizar culinárias de alto ticket para maximizar o GMV.
+
+### 🏷️ 5. Eficiência e Alavancagem de Campanhas de Cupons
+* **Aquisição de Novos Clientes (Com Cupom):** `34,35%` | **Via Tráfego Orgânico:** `12,81%`
+* **Efeito Colateral:** Redução de `R$ 5,60` no ticket médio e acionamento de Frete Grátis em `52,66%` das vezes (Validado via teste de hipótese $H_2$).
+* **💡 Recomendação Executiva:** A estratégia promocional triplica a atração de novos usuários e é excelente para crescimento de base. Contudo, devido à corrosão da margem, o marketing deve balancear o CAC (Custo de Aquisição) implementando réguas rígidas de retenção pós-uso (LTV).
+
 
 
 ### Hipóteses testadas (α = 5%)
