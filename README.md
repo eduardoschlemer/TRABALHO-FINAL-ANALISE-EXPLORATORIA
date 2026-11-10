@@ -31,28 +31,28 @@ A diretoria do aplicativo de delivery solicitou um diagnóstico aprofundado das 
 
 ### Dicionário da base limpa (`saidas/delivery_pedidos_limpo.csv`)
 
-| Coluna                | Tipo              | Descrição                                         | % faltantes   | Observação / tratamento |
-|:---|:---|:---|:---|:---|:---|
-| `pedido_id`           | int64             | Identificador único do pedido                     | 0.00%         | Chave primária original. |
-| `data_hora`           | datetime64[us]    | Data e hora exata da realização do pedido         | 0.00%         | Convertida de texto para formato datetime. |
-| `cidade`              | object            | Cidade onde a entrega foi realizada               | 0.00%         | 13 variantes textuais padronizadas para 3 nomes de capitais. |
-| `bairro`              | object            | Bairro de destino do pedido                       | 0.00%         | Espaços em branco limpos com `.str.strip()`. |
-| `restaurante_id`      | object            | Identificador único do restaurante parceiro       | 0.00%         | Código alfanumérico do sistema. |
-| `tipo_cozinha`        | object            | Segmento gastronômico do restaurante              | 0.00%         | Mapeado em 6 categorias de culinária. |
-| `plataforma`          | object            | Sistema operacional usado pelo cliente            | 0.00%         | Faltantes preenchidos usando a **MODA** (Android). |
-| `forma_pagamento`     | object            | Meio de pagamento escolhido pelo usuário          | 0.00%         | 8 variantes textuais e siglas padronizadas para 4 formas. |
-| `cupom`               | bool              | Indica se o pedido utilizou cupom                 | 0.00%         | Convertida de texto ("Sim"/"Não") para booleano. |
-| `cliente_novo`        | bool              | Indica se é a primeira compra do usuário          | 0.00%         | Coluna booleana original de sistema. |
-| `chuva`               | object            | Condição climática da cidade no dia               | 0.00%         | Convertida de booleano para os termos "com chuva"/"sem chuva". |
-| `distancia_km`        | float64           | Distância restaurante $\rightarrow$ cliente       | 0.09%         | 7 Outliers impossíveis (>100km) limpos e tratados via mediana. |
-| `tempo_entrega_min`   | float64           | Minutos decorridos do pedido à entrega            | 0.41%         | 33 códigos inválidos (999 e negativos) limpos e tratados via mediana. |
-| `valor_pedido`        | float64           | Valor dos itens em R$ (sem a taxa de entrega)     | 0.00%         | Símbolo "R$" e vírgulas limpas; convertida de texto para float. |
-| `taxa_entrega`        | float64           | Taxa de frete cobrada do cliente em R$            | 0.00%         | Variável numérica contínua original. |
-| `avaliacao`           | float64           | Nota de 1 a 5 dada pelo cliente                   | 0.00%         | 16,65% de faltantes (aleatórios) preenchidos com a **MEDIANA** geral. |
-| `data`                | object            | Data pura do pedido (AAAA-MM-DD)                  | 0.00%         | Derivada da coluna `data_hora`. |
-| `mes`                 | int32             | Mês do pedido (1 a 12)                            | 0.00%         | Derivada da coluna `data_hora`. |
-| `hora`                | int32             | Hora do pedido (0 a 23)                           | 0.00%         | Derivada da coluna `data_hora`. |
-| `dia_semana`          | category          | Nome do dia da semana em português                | 0.00%         | Derivada de `data_hora`, ordenada de Segunda a Domingo. |
+| Coluna | Tipo | Descrição | % faltantes | Observação / tratamento |
+|:---|:---|:---|:---|:---|
+| `pedido_id` | int64 | Identificador único do pedido | 0.00% | Chave primária original. |
+| `data_hora` | datetime64[us] | Data e hora exata da realização do pedido | 0.00% | Convertida de texto para formato datetime. |
+| `cidade` | object | Cidade onde a entrega foi realizada | 0.00% | 13 variantes textuais padronizadas para 3 nomes de capitais. |
+| `bairro` | object | Bairro de destino do pedido | 0.00% | Espaços em branco limpos com `.str.strip()`. |
+| `restaurante_id` | object | Identificador único do restaurante parceiro | 0.00% | Código alfanumérico do sistema. |
+| `tipo_cozinha` | object | Segmento gastronômico do restaurante | 0.00% | Mapeado em 6 categorias de culinária. |
+| `plataforma` | object | Sistema operacional usado pelo cliente | 0.00% | Faltantes preenchidos usando a **MODA** (Android). |
+| `forma_pagamento` | object | Meio de pagamento escolhido pelo usuário | 0.00% | 8 variantes textuais e siglas padronizadas para 4 formas. |
+| `cupom` | bool | Indica se o pedido utilizou cupom | 0.00% | Convertida de texto ("Sim"/"Não") para booleano. |
+| `cliente_novo` | bool | Indica se é a primeira compra do usuário | 0.00% | Coluna booleana original de sistema. |
+| `chuva` | object | Condição climática da cidade no dia | 0.00% | Convertida de booleano para os termos "com chuva"/"sem chuva". |
+| `distancia_km` | float64 | Distância restaurante → cliente | 0.09% | 7 Outliers impossíveis (>100km) limpos e tratados via mediana. |
+| `tempo_entrega_min` | float64 | Minutos decorridos do pedido à entrega | 0.41% | 33 códigos inválidos (999 e negativos) limpos e tratados via mediana. |
+| `valor_pedido` | float64 | Valor dos itens em R$ (sem a taxa de entrega) | 0.00% | Símbolo "R$" e vírgulas limpas; convertida de texto para float. |
+| `taxa_entrega` | float64 | Taxa de frete cobrada do cliente em R$ | 0.00% | Variável numérica contínua original. |
+| `avaliacao` | float64 | Nota de 1 a 5 dada pelo cliente | 0.00% | 16,65% de faltantes (aleatórios) preenchidos com a **MEDIANA** geral. |
+| `data` | object | Data pura do pedido (AAAA-MM-DD) | 0.00% | Derivada da coluna `data_hora`. |
+| `mes` | int32 | Mês do pedido (1 a 12) | 0.00% | Derivada da coluna `data_hora`. |
+| `hora` | int32 | Hora do pedido (0 a 23) | 0.00% | Derivada da coluna `data_hora`. |
+| `dia_semana` | category | Nome do dia da semana em português | 0.00% | Derivada de `data_hora`, ordenada de Segunda a Domingo. |
 
 ---
 
@@ -98,13 +98,12 @@ jupyter notebook projeto_final.ipynb
 
 ### Decisões de limpeza
 
-| Problema                        | Linhas afetadas | Decisão                                               | Alternativa considerada                                                     |
-|:---|:---|:---|:---|:---|:---|
-| :------------------------------ | :-------------- | :---------------------------------------------------- | :-------------------------------------------------------------------------- |
-| tempo_entrega_min = 999 ou < 0  | 33 pedidos      | Substituição por NaN + criação da flag tempo_invalido  | Excluir as linhas da base (rejeitado para não perder dados de receita)      |
-| distancia_km > 100 km           | 7 pedidos       | Substituição por NaN + criação da flag distancia_invalida | Substituir pela média geral da base (rejeitado por enviesar a taxa)         |
-| avaliacao nula (NaN)            | 1.342 pedidos   | Preenchimento total com a MEDIANA GERAL (4.0)         | Deixar nulo ou usar a média (rejeitado por ser variável ordinal discreta)   |
-| plataforma nula (NaN)           | 153 pedidos     | Preenchimento total com a MODA (Android)              | Excluir linhas (rejeitado por se tratar de variável de texto simples)       |
+| Problema | Linhas afetadas | Decisão | Alternativa considerada |
+|:---|:---|:---|:---|
+| tempo_entrega_min = 999 ou < 0 | 33 pedidos | Substituição por NaN + criação da flag tempo_invalido | Excluir as linhas da base (rejeitado para não perder dados de receita) |
+| distancia_km > 100 km | 7 pedidos | Substituição por NaN + criação da flag distancia_invalida | Substituir pela média geral da base (rejeitado por enviesar a taxa) |
+| avaliacao nula (NaN) | 1.342 pedidos | Preenchimento total com a MEDIANA GERAL (4.0) | Deixar nulo ou usar a média (rejeitado por ser variável ordinal discreta) |
+| plataforma nula (NaN) | 153 pedidos | Preenchimento total com a MODA (Android) | Excluir linhas (rejeitado por se tratar de variável de texto simples) |
 
 ## 📊 6. Principais Achados & Insights de Negócio
 
